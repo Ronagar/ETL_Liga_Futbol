@@ -1,0 +1,470 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="404619f3-3204-4f0d-99b6-2acb9c3c08b9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Ronda</ID>
+  <Name>Ronda</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-944" scrolltop="-1728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12197" y="16034" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Liga" left="729" top="0" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Liga" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Ronda" left="6839" top="4702" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Ronda" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Temporada" left="729" top="9827" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Temporada" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Evento" left="20" top="4702" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="4419" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000043110000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Evento" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1830" top="1803" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Evento_Liga_FK]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2229" y="2302" />
+              <point x="2229" y="4702" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4139" top="5665" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Ronda_Evento_FK]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="19" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4439" y="6064" />
+              <point x="6839" y="6064" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1830" top="7127" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Evento_Temporada_FK]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2229" y="9827" />
+              <point x="2229" y="7427" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-944</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1728</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="116">
+            <Shape Id="Ronda ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ronda ID" />
+                <Attribute Id="L Titulo" />
+                <Attribute Id="Clave" />
+                <Attribute Id="Titulo" />
+                <Attribute Id="Titulo 1" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID" />
+              </Attributes>
+              <Position x="170" y="20" />
+            </Shape>
+            <Shape Id="Temporada ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Temporada ID" />
+              </Attributes>
+              <Position x="320" y="20" />
+            </Shape>
+            <Shape Id="Liga ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Liga ID" />
+              </Attributes>
+              <Position x="320" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7df3535d-5d00-42e1-818f-db94e69bfb26">
+    <DataSourceViewID>Proyecto B</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="ee5552e0-18d0-4593-acfb-f8de6bbe2eb2">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="041877ac-f9f2-458b-9b50-b98d9a9e9a9e">
+      <ID>Ronda ID</ID>
+      <Name>Ronda</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="65e8cc66-9328-4c6f-b30d-c3d489901850">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17574a7b-7b53-4dd7-ba12-f6c8d64873be">
+            <TableID>dbo_Ronda</TableID>
+            <ColumnID>RondaID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bc33e442-598c-43ef-b644-05d26b57add5">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a38e2178-61a3-4cbe-b441-79eab9703395">
+          <TableID>dbo_Ronda</TableID>
+          <ColumnID>Titulo</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4ba281b6-dc0c-4c7c-9115-9ff2e6eff6c0">
+          <AttributeID>L Titulo</AttributeID>
+          <Name>LigaTitulo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="29ca730a-6f65-41a8-b99e-16703f2442d2">
+          <AttributeID>Clave</AttributeID>
+          <Name>NEvento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="060afbb3-6328-4729-ad16-68f0d54acfaa">
+          <AttributeID>Titulo</AttributeID>
+          <Name>NRonda</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e6cdc11c-40c3-4387-9b86-23879ad413ea">
+          <AttributeID>Titulo 1</AttributeID>
+          <Name>NTemporada</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="81bb2db7-5c87-4b59-921f-16148e75ae4a">
+          <AttributeID>ID</AttributeID>
+          <Name>Evento</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="01fbcdaa-4afb-415d-832c-836bc48b46c7">
+      <ID>ID</ID>
+      <Name>Evento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8984869-eebe-48c8-b649-d48f9644ebb2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13a90678-c0a1-4842-b126-6cc6eaa926e9">
+            <TableID>dbo_Evento</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="43cfc4e5-6bb6-49e4-a8ae-f932dd92d4b0">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6c0edb63-910b-48a6-8928-ffe9744fb74b">
+          <TableID>dbo_Evento</TableID>
+          <ColumnID>Clave</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c27f0c91-3b19-40be-9260-c6e869e2c1b9">
+          <AttributeID>Liga ID</AttributeID>
+          <Name>Liga</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c8aaea7a-52a2-48e4-9733-86be3f4dead7">
+          <AttributeID>Temporada ID</AttributeID>
+          <Name>Temporada</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9f1c3ce9-2475-42b8-979c-df64af1aeaae">
+      <ID>Liga ID</ID>
+      <Name>Liga</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5bd287db-4900-4d3b-9803-caa1c2a4d6bc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="582aeee6-1cb6-48e8-85e2-c70149e187dc">
+            <TableID>dbo_Liga</TableID>
+            <ColumnID>LigaID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bc5efb52-ed2b-44cc-aff9-73e009525241">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4c9182f0-f976-4bc8-a94f-bb0d27650383">
+          <TableID>dbo_Liga</TableID>
+          <ColumnID>L_titulo</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3b7daaa4-d74c-4e2e-b7c4-2dfe05641827">
+      <ID>Temporada ID</ID>
+      <Name>Temporada</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="311d3a64-8d81-4482-a852-2bfe2f3b5eee">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d11e8d9a-b6d7-44c4-9d98-ddbbdc1ed883">
+            <TableID>dbo_Temporada</TableID>
+            <ColumnID>temporadaID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="1a120bd3-a4bd-4a3b-a9e4-36296acdb8db">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8f949e01-e6cb-4cfa-918e-5796b1c47029">
+          <TableID>dbo_Temporada</TableID>
+          <ColumnID>Titulo</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="045c239b-de2a-41e1-83ad-6a7a27ba2d81">
+      <ID>L Titulo</ID>
+      <Name>LigaTitulo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4238cef-ff12-4550-a4f5-9b333ffd0f05">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a4f3025-ba3a-43ac-bdd3-125b9f5a988a">
+            <TableID>dbo_Liga</TableID>
+            <ColumnID>L_titulo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="862fad36-0d7a-40c5-8403-1540bd741732">
+      <ID>Clave</ID>
+      <Name>NEvento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="995c8dc8-71e7-4504-a865-32bf437f4e90">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae3e5b93-44f5-4f63-a78c-e61f2b157833">
+            <TableID>dbo_Evento</TableID>
+            <ColumnID>Clave</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="13608bb1-1f76-4954-9105-b5a68d3a43b1">
+      <ID>Titulo</ID>
+      <Name>NRonda</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c786b2f7-ca84-4631-89df-ed0665a24888">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3f28e75-6757-446f-87ff-cf219ba6a840">
+            <TableID>dbo_Ronda</TableID>
+            <ColumnID>Titulo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c0004c66-4d1d-4763-b6c6-f82401d9c25e">
+      <ID>Titulo 1</ID>
+      <Name>NTemporada</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1f7e1b22-99e6-40f5-8654-1ff93d09ee1d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1d05564-905c-451f-8f75-8274213fdb60">
+            <TableID>dbo_Temporada</TableID>
+            <ColumnID>Titulo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="863be6b4-681f-4c4a-b2b0-6c3e994b440a">
+      <ID>Jerarquía</ID>
+      <Name>JTemporada</Name>
+      <Levels>
+        <Level dwd:design-time-name="8bc6af6e-6b95-41c3-9a7e-500e537b3ecc">
+          <ID>Temporada</ID>
+          <Name>Temporada</Name>
+          <SourceAttributeID>Temporada ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3b94e412-a426-4dfc-8beb-bf4a030d3c72">
+          <ID>Evento</ID>
+          <Name>Evento</Name>
+          <SourceAttributeID>ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="495b3a9e-e740-4136-8f8a-3540d2d709bb">
+          <ID>Ronda</ID>
+          <Name>Ronda</Name>
+          <SourceAttributeID>Ronda ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="6bbd3329-5cf9-434b-b560-354044e33aab">
+      <ID>Jerarquía 1</ID>
+      <Name>JLiga</Name>
+      <Levels>
+        <Level dwd:design-time-name="5866984e-8d52-4aea-b413-80c8265de51b">
+          <ID>Liga</ID>
+          <Name>Liga</Name>
+          <SourceAttributeID>Liga ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3e677f91-810b-46fc-804b-27d62b90b274">
+          <ID>Evento</ID>
+          <Name>Evento</Name>
+          <SourceAttributeID>ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7a928588-9213-474d-88d8-8171bd66f558">
+          <ID>Ronda</ID>
+          <Name>Ronda</Name>
+          <SourceAttributeID>Ronda ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="005b00f8-3a95-4f6c-b949-8cbce289e194">
+      <ID>Jerarquía 2</ID>
+      <Name>Torneo</Name>
+      <Levels>
+        <Level dwd:design-time-name="c6251dd7-c438-490a-a990-532ef3655575">
+          <ID>Liga</ID>
+          <Name>Liga</Name>
+          <SourceAttributeID>Liga ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e784079a-2904-4349-9d87-6af6b03d1cee">
+          <ID>Temporada</ID>
+          <Name>Temporada</Name>
+          <SourceAttributeID>Temporada ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6c6278fc-ed32-4eff-891f-00ab0f979a61">
+          <ID>Evento</ID>
+          <Name>Evento</Name>
+          <SourceAttributeID>ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fff97c96-5aec-4ffd-ac30-8d696eac1f39">
+          <ID>Ronda</ID>
+          <Name>Ronda</Name>
+          <SourceAttributeID>Ronda ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8310A286-B3DB-543E-BC02-5EAF78D80A36" name="Partido">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:15:52 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Knockout" id="29C98547-AF5C-B0FE-1AB7-D7DDDC3648E8">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:16:36 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Score 1" id="D9FD4EEB-48BF-D5E6-5EB5-AD59034840BE">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:17:48 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Score 2" id="0A8BDA43-439A-31EF-9F51-D686A488345E">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:18:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ganador" id="C2B19207-F111-CA96-05DE-3BCF4735916E">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:18:41 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Equipo1" id="B18F6CE1-172D-9816-BFBE-3C345C432DBC">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 13:12:42 UTC</createdTime>
+<generatorID>F18B7A5C-FEE5-A27A-BE5F-EF45F18722A0</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<referedAttribute>489429EC-F3B9-4470-25B8-7F8A52EFFF0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Equipo2" id="B0BDDA06-7270-AF75-5A09-EDAE6BCF4B05">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 13:13:50 UTC</createdTime>
+<generatorID>EABAB111-B09B-2172-5C56-EC8B5305BC50</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<referedAttribute>489429EC-F3B9-4470-25B8-7F8A52EFFF0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RondaID" id="5B4A77C5-D147-CFDA-96CC-FE40D44118D1">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 13:26:52 UTC</createdTime>
+<generatorID>A0D0A74A-9C1E-954A-FB68-9C5D205E44DF</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<referedAttribute>2C6D6419-FA32-0EB5-B821-07AE202FBE81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JuegoID" id="73EA73A7-1C4A-0850-1B40-7D41AFD22DC6">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 17:24:54 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pos" id="08C96CDB-40CA-D6CB-6797-181C124DE5A0">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 17:26:08 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Local" id="ABD6EA3F-A03A-C66A-B094-A2055FE6B1C6">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 17:26:23 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CampoID" id="778E4640-2BAD-43CA-D5FF-F81A3E806ED1">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 18:02:31 UTC</createdTime>
+<generatorID>DB7F7EB5-694E-B6D7-58CE-B31E735EAB04</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E624733C-E8E1-0EE7-13F1-D35273491CE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="33ABA008-BC6A-F68F-1B35-D864EF93CC03">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 18:10:30 UTC</createdTime>
+<generatorID>D30F0130-A713-7F7B-C990-8E64BDD17159</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<referedAttribute>6E938C37-3B4A-FB7C-DE78-DB0F9791CAF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFA53686-0AAC-8260-F04C-29AC51DAA7AA" name="Partido PK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 17:24:49 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B18F6CE1-172D-9816-BFBE-3C345C432DBC</attributeRef>
+<attributeRef>B0BDDA06-7270-AF75-5A09-EDAE6BCF4B05</attributeRef>
+<attributeRef>5B4A77C5-D147-CFDA-96CC-FE40D44118D1</attributeRef>
+<attributeRef>73EA73A7-1C4A-0850-1B40-7D41AFD22DC6</attributeRef>
+<attributeRef>33ABA008-BC6A-F68F-1B35-D864EF93CC03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

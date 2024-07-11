@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A799DCF5-4B4A-EC55-D822-C445C2C39755" name="Ciudad">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>09FA6237-C260-1023-0FC5-5F7535E684E2</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CiudadID" id="B4B1A21D-5DB7-7661-B75D-947F6B5FE953">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>C0BCAC2F-B095-4563-B6AC-7D8065740B87</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="62C3A39F-12CA-0E8C-CCD3-4A56D266A835">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>E911EE06-3088-6DF9-B9E7-09C61CEC4DDE</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clave" id="851E781E-86BD-4880-BD8D-585942CD640B">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>637CB3A0-77EC-AC16-D9B3-E867DF451049</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_PaisID" id="9387A0E3-E44B-6491-F32D-27A8BC671705">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>77CDD5F3-B077-4A68-BF8B-792627EABEC5</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D38A96B-DC09-11FF-ED23-9E200B75A77E" referredColumn="A5B46B99-204F-32F2-2FBE-685D44100051"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D73C00E-0371-E57A-CB8E-BBCF22A08245" name="Ciudad_PK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>DF08FF07-DA82-6ABE-D44E-9947660E6C6A</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4B1A21D-5DB7-7661-B75D-947F6B5FE953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBBB9275-25BF-F6AD-F418-72F791023797" name="Ciudad_Pais_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>5DFC09FA-EB90-6D93-D8B2-D78A67F1D8F9</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9387A0E3-E44B-6491-F32D-27A8BC671705"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

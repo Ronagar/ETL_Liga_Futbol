@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Se_juega_el" directorySegmentName="seg_0" id="D30F0130-A713-7F7B-C990-8E64BDD17159">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 18:10:30 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<sourcePk>398A63D8-B371-6A31-7616-D3394FDEDC16</sourcePk>
+<targetPk>EFA53686-0AAC-8260-F04C-29AC51DAA7AA</targetPk>
+<identifying>false</identifying>
+<nameOnTarget>FechaID</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21F9B314-45F1-AB11-5A49-CBFE15232E5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8310A286-B3DB-543E-BC02-5EAF78D80A36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

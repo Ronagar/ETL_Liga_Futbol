@@ -1,0 +1,132 @@
+INSERT INTO [LigaFutbol].[dbo].[cities] (name, [key], country_id)
+VALUES
+('Barcelona', 'barcelona', 112),
+('Sevilla', 'sevilla', 112),
+('Valencia', 'valencia', 112),
+('Málaga', 'malaga', 112),
+('Bilbao', 'bilbao', 112),
+('Granada', 'granada', 112),
+('Vigo', 'vigo', 112),
+('San Sebastián', 'sansebastian', 112),
+('Valladolid', 'valladolid', 112),
+('La Coruña', 'lacoruna', 112),
+('Éibar', 'eibar', 112),
+('Gijón', 'gijon', 112),
+('Las Palmas', 'laspalmas', 112),
+('Elche', 'elche', 112),
+('Almería', 'almeria', 112),
+('Córdoba', 'cordoba', 112),
+('Pamplona', 'pamplona', 112),
+('Villareal', 'villareal', 112),
+('Alcorcón', 'alcorcon', 112),
+('Sabadell', 'sabadell', 112),
+('Lugo', 'lugo', 112),
+('Miranda del Ebro', 'mirandadelebro', 112),
+('Soria', 'soria', 112),
+('Tenerife', 'tenerife', 112),
+('Vitoria-Gasteiz', 'vitoriagasteiz', 112),
+('Girona', 'girona', 112),
+('Alicante', 'alicante', 112),
+('Mallorca', 'mallorca', 112),
+('Huelva', 'huelva', 112),
+('Jaén', 'jaen', 112),
+('Murcia', 'murcia', 112),
+('Zaragoza', 'zaragoza', 112),
+('Ponferrada', 'ponferrada', 112),
+('Leganés', 'leganes', 112);
+---------------------------------------------------------------------------
+----------------------------------------------------------------------------
+
+UPDATE [LigaFutbol].[dbo].[teams]
+SET city_id = 
+    CASE 
+        WHEN [key] = 'barcelona' THEN 174
+        WHEN [key] = 'espanyol' THEN 174
+        WHEN [key] = 'sevilla' THEN 175
+		WHEN [key] = 'valencia' THEN 176
+		WHEN [key] = 'levante' THEN 176
+		WHEN [key] = 'malaga' THEN 177
+		WHEN [key] = 'athletic' THEN 178
+		WHEN [key] = 'granada' THEN 179
+		WHEN [key] = 'celta' THEN 180
+		WHEN [key] = 'realsociedad' THEN 181
+		WHEN [key] = 'valladolid' THEN 182
+		WHEN [key] = 'deportivo' THEN 183
+		WHEN [key] = 'eibar' THEN 184
+		WHEN [key] = 'betis' THEN 175
+		WHEN [key] = 'sporting' THEN 185
+		WHEN [key] = 'laspalmas' THEN 186
+		WHEN [key] = 'elche' THEN 187
+		WHEN [key] = 'almeria' THEN 188
+		WHEN [key] = 'cordoba' THEN 189
+		WHEN [key] = 'osasuna' THEN 190
+		WHEN [key] = 'villareal' THEN 191
+		WHEN [key] = 'alcorcon' THEN 192
+		WHEN [key] = 'sabadell' THEN 193
+		WHEN [key] = 'lugo' THEN 194
+		WHEN [key] = 'mirandes' THEN 195
+		WHEN [key] = 'numancia' THEN 196
+		WHEN [key] = 'tenerife' THEN 197
+		WHEN [key] = 'alaves' THEN 198
+		WHEN [key] = 'barcelonab' THEN 174
+		WHEN [key] = 'girona' THEN 199
+		WHEN [key] = 'hercules' THEN 200
+		WHEN [key] = 'mallorca' THEN 201
+		WHEN [key] = 'recreativo' THEN 202
+		WHEN [key] = 'jaen' THEN 203
+		WHEN [key] = 'castilla' THEN 96
+		WHEN [key] = 'murcia' THEN 204
+		WHEN [key] = 'zaragoza' THEN 205
+		WHEN [key] = 'ponferradina' THEN 206
+		WHEN [key] = 'leganes' THEN 207
+    END
+WHERE city_id IS NULL;
+----------------------------------------------------
+-------------------------------------------------------
+USE LigaFutbol;
+
+INSERT INTO [dbo].[grounds] ([key], title, capacity, city_id, country_id)
+VALUES
+('CampNou', 'Camp Nou', 99354, 174, 112),
+('RCDE', 'RCDE Stadium', 40284, (SELECT id FROM [dbo].[cities] WHERE [key] = 'barcelona'), 112),
+('Bernabeu', 'Santiago Bernabéu', 81044, 96, 112),
+('Wanda', 'Wanda Metropolitano', 68456, (SELECT id FROM [dbo].[cities] WHERE [key] = 'madrid'), 112),
+('Coliseum', 'Coliseum Alfonso Pérez', 17393, 96, 112),
+('Vallecas', 'Estadio de Vallecas', 14500, (SELECT id FROM [dbo].[cities] WHERE [key] = 'madrid'), 112),
+('Sanchez-Pizjuan', 'Estadio Ramón Sánchez-Pizjuán', 43842, 175, 112),
+('Mestalla', 'Mestalla', 55000, 176, 112),
+('CiutatValencia', 'Estadi Ciutat de València', 25445, (SELECT id FROM [dbo].[cities] WHERE [key] = 'valencia'), 112),
+('Rosaleda', 'La Rosaleda', 30328, 177, 112),
+('SanMames', 'San Mamés', 53289, 178, 112),
+('NuevoCarmenes', 'Nuevo Los Cármenes', 19068, 179, 112),
+('Balacaidos', 'Abanca-Balaídos', 29940, 180, 112),
+('RealeArena', 'Reale Arena', 39917, (SELECT id FROM [dbo].[cities] WHERE [key] = 'sansebastian'), 112),
+('JoseZorrilla', 'Estadio José Zorrilla', 26512, 182, 112),
+('Riazor', 'Estadio ABANCA-RIAZOR', 30798, (SELECT id FROM [dbo].[cities] WHERE [key] = 'lacoruna'), 112),
+('Ipurua', 'Estadio Municipal de Ipurúa', 8000, 184, 112),
+('Villamarin', 'Benito Villamarín', 60805, (SELECT id FROM [dbo].[cities] WHERE [key] = 'sevilla'), 112),
+('Molinon', 'Estadio El Molinón', 30000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'gijon'), 112),
+('GranCanaria', 'Estadio Gran Canaria', 32520, (SELECT id FROM [dbo].[cities] WHERE [key] = 'laspalmas'), 112),
+('MartinezValero', 'Estadio Martínez Valero', 38845, (SELECT id FROM [dbo].[cities] WHERE [key] = 'elche'), 112),
+('JMediterraneos', 'Estadio de los Juegos Mediterráneos', 15500, (SELECT id FROM [dbo].[cities] WHERE [key] = 'almeria'), 112),
+('NuevoArcangel', 'Estadio Nuevo Arcángel', 21000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'cordoba'), 112),
+('ElSadar', 'Estadio El Sadar', 23929, (SELECT id FROM [dbo].[cities] WHERE [key] = 'pamplona'), 112),
+('Ceramica', 'Estadio de la Cerámica', 23929, (SELECT id FROM [dbo].[cities] WHERE [key] = 'villareal'), 112),
+('SantoDomingo', 'Estadio Santo Domingo', 5000, 192, 112),
+('NovaCreu', 'Estadi de la Nova Creu Alta', 11900, (SELECT id FROM [dbo].[cities] WHERE [key] = 'sabadell'), 112),
+('AnxoCarro', 'Estadio Anxo Carro', 8000, 194, 112),
+('Anduva', 'Estadio Municipal de Anduva', 5912, (SELECT id FROM [dbo].[cities] WHERE [key] = 'mirandadelebro'), 112),
+('Pajaritos', 'Estadio de Los Pajaritos', 8900, (SELECT id FROM [dbo].[cities] WHERE [key] = 'soria'), 112),
+('HeliodoroRL', 'Estadio Heliodoro Rodríguez López', 22500, (SELECT id FROM [dbo].[cities] WHERE [key] = 'tenerife'), 112),
+('Mendizorrotza', 'Estadio Mendizorrotza', 19840, (SELECT id FROM [dbo].[cities] WHERE [key] = 'vitoriagasteiz'), 112),
+('MiniEstadi', 'Mini Estadi', 15000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'barcelona'), 112),
+('Montilivi', 'Estadi Montilivi', 13000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'girona'), 112),
+('JoseRicoPerez', 'Estadio José Rico Pérez', 29498, (SELECT id FROM [dbo].[cities] WHERE [key] = 'alicante'), 112),
+('SonMoix', 'Estadio de Son Moix', 23000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'mallorca'), 112),
+('NColombino', 'Estadio Nuevo Colombino', 21000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'huelva'), 112),
+('Victoria', 'Estadio de la Victoria', 23000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'jaen'), 112),
+('AlfredoStefano', 'Estadio Alfredo Di Stéfano', 6000, (SELECT id FROM [dbo].[cities] WHERE [key] = 'madrid'), 112),
+('NCondomina', 'Estadio Nueva Condomina', 31400, (SELECT id FROM [dbo].[cities] WHERE [key] = 'murcia'), 112),
+('Romareda', 'Estadio La Romareda', 34596, (SELECT id FROM [dbo].[cities] WHERE [key] = 'zaragoza'), 112),
+('Toralin', 'Estadio El Toralín', 8500, 206, 112),
+('Butarque', 'Estadio Municipal de Butarque', 12345, 207, 112);

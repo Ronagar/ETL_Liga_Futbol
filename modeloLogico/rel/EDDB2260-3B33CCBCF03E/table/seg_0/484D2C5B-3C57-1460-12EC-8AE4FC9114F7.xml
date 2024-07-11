@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="484D2C5B-3C57-1460-12EC-8AE4FC9114F7" name="Evento">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>8449FBC9-2C63-B4A2-9A24-8351352B0AB7</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BA635F80-6F9E-7CD2-6B4A-64FBDDBA2AE7">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>FCB19F42-9F62-EE88-CFEB-9B05BA7F59DF</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clave" id="64BBC318-F340-31DD-053E-9F0780DB1A56">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>0986F736-7CC0-CDAB-D32D-4C7667E991E1</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Liga_LigaID" id="0F925B02-7A8B-40C6-EFF2-5AF05C5EEDD0">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>8117B99F-8584-F557-77DE-684ADA0D804B</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81A22BB-55EA-7F8D-89A3-831DCB47FD42" referredColumn="6EC6C2DC-0A25-20ED-1CF1-56DC7B362895"/>
+</associations>
+</Column>
+<Column name="Temporada_temporadaID" id="DBBFF66A-2706-DFD9-2F72-DD207AED27A5">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>375A5121-A9D3-5A6D-6F5C-6EE631CB4410</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C071AA8-1525-C110-F210-3452DBA58041" referredColumn="2F75CD84-F881-520B-B5F1-07C60846C302"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7497A58-2EE3-389C-5A44-0EAA3B5BD394" name="Evento_PK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>86C4511A-D492-D688-2D01-246869144DCD</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA635F80-6F9E-7CD2-6B4A-64FBDDBA2AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAF849AA-8DFC-EE24-B454-64AF9FCFCFCB" name="Evento_Liga_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>57D604AA-0BD9-21F8-46DF-AEAC71B7176B</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F925B02-7A8B-40C6-EFF2-5AF05C5EEDD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCC6A0EA-C09B-0CBF-8BC0-F063F94215DF" name="Evento_Temporada_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>9BB0CB82-CDA5-53C6-69D5-339513740664</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBBFF66A-2706-DFD9-2F72-DD207AED27A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

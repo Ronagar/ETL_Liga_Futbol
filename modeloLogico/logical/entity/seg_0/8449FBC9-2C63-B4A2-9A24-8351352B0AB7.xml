@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8449FBC9-2C63-B4A2-9A24-8351352B0AB7" name="Evento">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:45:06 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="FCB19F42-9F62-EE88-CFEB-9B05BA7F59DF">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:45:14 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave" id="0986F736-7CC0-CDAB-D32D-4C7667E991E1">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:45:44 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LigaID" id="8117B99F-8584-F557-77DE-684ADA0D804B">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:49:25 UTC</createdTime>
+<generatorID>57D604AA-0BD9-21F8-46DF-AEAC71B7176B</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<referedAttribute>119DA865-E354-90C8-2626-C5CB4345ED02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temporadaID" id="375A5121-A9D3-5A6D-6F5C-6EE631CB4410">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:51:28 UTC</createdTime>
+<generatorID>9BB0CB82-CDA5-53C6-69D5-339513740664</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<referedAttribute>0AE95C2D-843D-427A-EA39-A115FA05C6B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86C4511A-D492-D688-2D01-246869144DCD" name="Evento PK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:45:19 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCB19F42-9F62-EE88-CFEB-9B05BA7F59DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

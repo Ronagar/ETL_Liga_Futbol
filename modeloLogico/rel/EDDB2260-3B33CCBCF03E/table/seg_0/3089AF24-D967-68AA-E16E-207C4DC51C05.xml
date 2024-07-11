@@ -1,0 +1,243 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3089AF24-D967-68AA-E16E-207C4DC51C05" name="Partido">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>8310A286-B3DB-543E-BC02-5EAF78D80A36</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Knockout" id="699B6457-308A-A95C-6DAC-29F766B23282">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>29C98547-AF5C-B0FE-1AB7-D7DDDC3648E8</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Score_1" id="FC5784E4-C6AE-34E4-9F17-20D52B10AC44">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>D9FD4EEB-48BF-D5E6-5EB5-AD59034840BE</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Score_2" id="60569023-73DB-8C57-069E-A45178E91970">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>0A8BDA43-439A-31EF-9F51-D686A488345E</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ganador" id="B02F34FF-BFBB-2F3F-EA5E-0E4D02AB3724">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>C2B19207-F111-CA96-05DE-3BCF4735916E</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipo_EquipoID" id="58DA480A-319D-66E1-3B16-E47279180D87">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>B18F6CE1-172D-9816-BFBE-3C345C432DBC</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97BEF465-D3A6-707B-7752-0F424A019135" referredColumn="B4106415-88C7-A8FD-AE8F-2BD30295E5F9"/>
+</associations>
+</Column>
+<Column name="Equipo_EquipoID2" id="5FF556F9-1D9F-FAB6-336B-B473335A839E">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>B0BDDA06-7270-AF75-5A09-EDAE6BCF4B05</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1209E911-B0D5-12DC-25B3-3B845EB2307A" referredColumn="B4106415-88C7-A8FD-AE8F-2BD30295E5F9"/>
+</associations>
+</Column>
+<Column name="Ronda_RondaID" id="C1D100D5-502D-9A24-ED06-298063298D9C">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>5B4A77C5-D147-CFDA-96CC-FE40D44118D1</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="595399DC-96A7-3821-A6A7-7A1C2F2F581B" referredColumn="C4610B4D-9CB1-6F41-796E-6BA0F026CEE2"/>
+</associations>
+</Column>
+<Column name="JuegoID" id="4F185AEC-03A4-C18C-439A-AE0CFDCF16B6">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>73EA73A7-1C4A-0850-1B40-7D41AFD22DC6</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pos" id="FE91CC79-71B8-060E-4271-CD9E690B8215">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>08C96CDB-40CA-D6CB-6797-181C124DE5A0</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Local" id="4CBB1898-0F8B-0A60-950D-4D96955BBE0D">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>ABD6EA3F-A03A-C66A-B094-A2055FE6B1C6</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Campo_CampoID" id="6404CB2D-E3BA-6EEC-9C06-E37B62496E5B">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>778E4640-2BAD-43CA-D5FF-F81A3E806ED1</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FA9868C-8277-8D29-21CB-F3D01A0B0EE9" referredColumn="42B8CB66-F4CF-0C5D-5C01-A7C4A3312536"/>
+</associations>
+</Column>
+<Column name="Tiempo_Fecha" id="D513FEA1-8AA5-DCC7-C7C3-7D46E3B11DDE">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>33ABA008-BC6A-F68F-1B35-D864EF93CC03</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD51B7CA-F82A-CFA3-E17E-0CAC8614BBA4" referredColumn="A4E923E6-9685-1B51-0846-40D3C762F2E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37BFBC77-872F-B5BD-995D-A51C4DFB8D97" name="Partido_PK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>EFA53686-0AAC-8260-F04C-29AC51DAA7AA</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58DA480A-319D-66E1-3B16-E47279180D87"/>
+<colUsage columnID="5FF556F9-1D9F-FAB6-336B-B473335A839E"/>
+<colUsage columnID="C1D100D5-502D-9A24-ED06-298063298D9C"/>
+<colUsage columnID="4F185AEC-03A4-C18C-439A-AE0CFDCF16B6"/>
+<colUsage columnID="D513FEA1-8AA5-DCC7-C7C3-7D46E3B11DDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02C10FA7-5CD0-E305-95D1-D5E6287BAAD9" name="Partido_Equipo_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>F18B7A5C-FEE5-A27A-BE5F-EF45F18722A0</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58DA480A-319D-66E1-3B16-E47279180D87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D5E6212-D467-E2D7-27C4-584A6BFF30FB" name="Partido_Equipo_FKv2">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>EABAB111-B09B-2172-5C56-EC8B5305BC50</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF556F9-1D9F-FAB6-336B-B473335A839E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3396DB2-EF81-7FAC-BD78-89833319D06D" name="Partido_Ronda_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>A0D0A74A-9C1E-954A-FB68-9C5D205E44DF</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1D100D5-502D-9A24-ED06-298063298D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A96EB57A-088E-44D3-AE26-BECFFDEF2048" name="Partido_Campo_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>DB7F7EB5-694E-B6D7-58CE-B31E735EAB04</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6404CB2D-E3BA-6EEC-9C06-E37B62496E5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD2F5186-20BB-12D9-2360-8C2342A6719C" name="Partido_Tiempo_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>D30F0130-A713-7F7B-C990-8E64BDD17159</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D513FEA1-8AA5-DCC7-C7C3-7D46E3B11DDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

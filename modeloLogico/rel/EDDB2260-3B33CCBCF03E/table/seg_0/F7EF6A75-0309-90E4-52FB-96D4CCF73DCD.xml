@@ -1,0 +1,250 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7EF6A75-0309-90E4-52FB-96D4CCF73DCD" name="Pais">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>44BBAAF1-7B3A-6183-A1CE-F8EC5F73D031</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PaisID" id="A5B46B99-204F-32F2-2FBE-685D44100051">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>10E946A6-81CF-19FC-0A38-022D0213F72D</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="F6BD3057-4C9E-B0B9-EA38-CCA5885C2266">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>508B282A-CF1B-75FC-C715-0B342834708E</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slug" id="7016D06D-3341-094B-EBAD-4715BD1116D1">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>6099843C-1867-E5F1-6ECB-54CA75C4CC30</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clave" id="49B9EA64-E5D6-6039-DAFC-06FA7A5A1BA7">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>423A7ECE-2A45-D85B-9842-DAFE37F93572</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="942BCDDF-F180-8D4F-38AD-E675E6A3F320">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>C35E5A64-6CB1-45C5-4FFC-F14EDEA4D7B6</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreAlternativo" id="6363AAE6-84DF-C521-7EEC-A27553F350FF">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>CDC045F7-DCFC-9E32-B9EB-43A14FBD6C6E</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poblacion" id="DF89A4D4-D66B-0790-74D5-52EC01AFEB23">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>F4C7661D-196B-6E3A-A8A5-B18C3151380D</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area" id="974ECA9A-0075-B353-3C43-73A7017D7CF5">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>9984E8D8-11CD-0D34-AC20-420F49D8C231</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motor" id="EB5EDF2D-9EA3-0760-A52C-5A6370460F54">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>775AAE51-558C-7742-CA1F-7D059D11E89F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alpha2" id="4FAB1A03-4633-3C57-4F84-7ADBDD18EDD8">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>BFC579B0-E2EC-1C54-D790-E0E91A14A15F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alpha3" id="C66C6D3A-5B2B-3AEF-239E-5ACCD3FF7BB6">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>8B040DCF-B86C-5FFB-E957-A6AC44658324</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num" id="AAE1B4C2-1940-ACF6-3F3A-F4F56C280855">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>4EFA6570-C64B-7FD9-364B-4BCC8996E216</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fifa" id="E3834FCA-2A08-B040-4BA1-45A107A400F4">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>EED8BFD4-FB72-5504-AD70-ED4C60324502</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ioc" id="9AF702CA-CBC0-BF45-CFDE-3513DDB27810">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>3916EC8A-9A95-CFD3-6DD1-D92E3511CCE7</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fips" id="0AC842D2-8774-5EAB-4754-A839A50582EB">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>FA2A40B2-CFC6-E691-F05F-80B77401CAFA</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="net" id="489FE8D6-1B11-7EBA-088B-46108BAC7B30">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>61359F7B-7C84-A49C-F359-03CBD226AF85</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Continente_ContinenteID" id="9DB758F7-4304-A59E-97D1-B2D55E94F03B">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>872B35C9-DCA5-8F52-F2F0-8060EB6FF29D</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28A7D266-C06A-B635-A7F4-3CD82A85E978" referredColumn="B395F98D-F0EB-5B7A-4E91-767ABF948909"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0362127E-6375-54E8-ECD1-56AAFDACD950" name="Pais_PK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:04 UTC</createdTime>
+<generatorID>AD233E1B-F9BA-7EC4-DA3D-03ADAD0C4C13</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B46B99-204F-32F2-2FBE-685D44100051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5106CC13-0ED3-6C4E-7745-E275D53ED3D6" name="Pais_Continente_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>42BDC395-B204-98D3-BF8B-AA860A024950</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DB758F7-4304-A59E-97D1-B2D55E94F03B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

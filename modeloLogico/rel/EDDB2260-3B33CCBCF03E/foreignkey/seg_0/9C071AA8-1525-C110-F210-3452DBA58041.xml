@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C071AA8-1525-C110-F210-3452DBA58041" containerWithKeyObject="484D2C5B-3C57-1460-12EC-8AE4FC9114F7" localFKIndex="BCC6A0EA-C09B-0CBF-8BC0-F063F94215DF" name="Evento_Temporada_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>9BB0CB82-CDA5-53C6-69D5-339513740664</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Temporada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5B984B7-CFFE-6BC2-251E-6337C52B806A</referredTableID>
+<keyObject>3C68045A-B2DC-99F8-CBA1-BEA5E1BCDDC4</keyObject>
+<referredKeyID>3C68045A-B2DC-99F8-CBA1-BEA5E1BCDDC4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>temporadaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

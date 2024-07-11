@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD51B7CA-F82A-CFA3-E17E-0CAC8614BBA4" containerWithKeyObject="3089AF24-D967-68AA-E16E-207C4DC51C05" localFKIndex="FD2F5186-20BB-12D9-2360-8C2342A6719C" name="Partido_Tiempo_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>D30F0130-A713-7F7B-C990-8E64BDD17159</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Tiempo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74438A32-B89F-D993-B036-0AA3F9AD7CA6</referredTableID>
+<keyObject>78067A38-81A5-8979-E486-5E2C6E979845</keyObject>
+<referredKeyID>78067A38-81A5-8979-E486-5E2C6E979845</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Fecha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

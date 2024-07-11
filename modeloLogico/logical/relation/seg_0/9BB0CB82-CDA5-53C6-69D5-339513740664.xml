@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="9BB0CB82-CDA5-53C6-69D5-339513740664">
+<createdBy>super</createdBy>
+<createdTime>2023-10-21 12:51:28 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="EDDB2260-2C57-6BA4-68CA-3B33CCBCF03E" value="true"/>
+</engineerTo>
+<sourcePk>0F6C1130-B8B1-AC95-EF71-B3727DD62BB9</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>TemporadaID</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89C0BE60-AED8-3B37-02F0-5B154B986A8D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8449FBC9-2C63-B4A2-9A24-8351352B0AB7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

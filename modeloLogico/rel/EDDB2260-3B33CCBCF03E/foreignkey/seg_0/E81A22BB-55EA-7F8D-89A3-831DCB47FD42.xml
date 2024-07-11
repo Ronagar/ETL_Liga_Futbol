@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E81A22BB-55EA-7F8D-89A3-831DCB47FD42" containerWithKeyObject="484D2C5B-3C57-1460-12EC-8AE4FC9114F7" localFKIndex="DAF849AA-8DFC-EE24-B454-64AF9FCFCFCB" name="Evento_Liga_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>57D604AA-0BD9-21F8-46DF-AEAC71B7176B</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Liga</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47726A95-B2A7-B622-56B9-BA324BB15E4B</referredTableID>
+<keyObject>81804F10-3BD8-327E-DAF4-984CCFDF15C5</keyObject>
+<referredKeyID>81804F10-3BD8-327E-DAF4-984CCFDF15C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LigaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

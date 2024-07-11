@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99C03FF5-EDE3-3BA2-8F24-CF133ABE0D70" containerWithKeyObject="4DA879D3-3CD7-B31E-8692-0C290B887244" localFKIndex="8CEBA69A-5549-F98A-A508-0F9343E21F86" name="Ronda_Evento_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>890FAAA8-E83B-919B-C660-8E6F5D7F0395</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Evento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>484D2C5B-3C57-1460-12EC-8AE4FC9114F7</referredTableID>
+<keyObject>D7497A58-2EE3-389C-5A44-0EAA3B5BD394</keyObject>
+<referredKeyID>D7497A58-2EE3-389C-5A44-0EAA3B5BD394</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

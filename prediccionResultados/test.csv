@@ -1,0 +1,1001 @@
+﻿Equipo1;Equipo2;JuegoID;RondaID;Fecha;CampoID;Capacidad
+Barcelona;Espanyol;536;54;12/2016;0;99354
+Barcelona;Espanyol;1126;113;5/2016;0;99354
+Barcelona;Espanyol;1276;128;12/2014;0;99354
+Barcelona;Espanyol;1631;164;11/2013;0;99354
+Barcelona;Espanyol;2076;208;1/2013;0;99354
+Barcelona;R. Madrid;1063;107;4/2016;0;99354
+Barcelona;R. Madrid;1418;142;3/2015;0;99354
+Barcelona;R. Madrid;1613;162;10/2013;0;99354
+Barcelona;Atlético;973;98;1/2016;0;99354
+Barcelona;Atlético;1314;132;1/2015;0;99354
+Barcelona;Atlético;2057;206;12/2012;0;99354
+Barcelona;Getafe;1042;105;3/2016;0;99354
+Barcelona;Getafe;1475;148;4/2015;0;99354
+Barcelona;Getafe;2128;213;2/2013;0;99354
+Barcelona;Rayo;831;84;10/2015;0;99354
+Barcelona;Rayo;1399;140;3/2015;0;99354
+Barcelona;Rayo;1754;176;2/2014;0;99354
+Barcelona;Rayo;2180;218;3/2013;0;99354
+Barcelona;Sevilla;678;68;4/2017;0;99354
+Barcelona;Sevilla;1011;102;2/2016;0;99354
+Barcelona;Sevilla;1257;126;11/2014;0;99354
+Barcelona;Sevilla;1553;156;9/2013;0;99354
+Barcelona;Sevilla;2149;215;2/2013;0;99354
+Barcelona;Valencia;659;66;3/2017;0;99354
+Barcelona;Valencia;1084;109;4/2016;0;99354
+Barcelona;Valencia;1456;146;4/2015;0;99354
+Barcelona;Valencia;1732;174;2/2014;0;99354
+Barcelona;Valencia;1925;193;9/2012;0;99354
+Barcelona;Levante;800;80;9/2015;0;99354
+Barcelona;Levante;1370;137;2/2015;0;99354
+Barcelona;Levante;1524;153;8/2013;0;99354
+Barcelona;Levante;2215;222;4/2013;0;99354
+Barcelona;Málaga;774;78;8/2015;0;99354
+Barcelona;Málaga;1380;138;2/2015;0;99354
+Barcelona;Málaga;1729;173;1/2014;0;99354
+Barcelona;Málaga;2275;228;6/2013;0;99354
+Barcelona;Athletic;588;59;2/2017;0;99354
+Barcelona;Athletic;951;96;1/2016;0;99354
+Barcelona;Athletic;1162;117;9/2014;0;99354
+Barcelona;Athletic;1859;186;5/2014;0;99354
+Barcelona;Athletic;2031;204;12/2012;0;99354
+Barcelona;Granada;479;48;10/2016;0;99354
+Barcelona;Granada;946;95;1/2016;0;99354
+Barcelona;Granada;1196;120;9/2014;0;99354
+Barcelona;Granada;1652;166;11/2013;0;99354
+Barcelona;Granada;1948;195;9/2012;0;99354
+Barcelona;Celta;640;64;3/2017;0;99354
+Barcelona;Celta;992;100;2/2016;0;99354
+Barcelona;Celta;1238;124;11/2014;0;99354
+Barcelona;Celta;1813;182;3/2014;0;99354
+Barcelona;Celta;1998;200;11/2012;0;99354
+Barcelona;R. Sociedad;697;70;4/2017;0;99354
+Barcelona;R. Sociedad;889;89;11/2015;0;99354
+Barcelona;R. Sociedad;1494;150;5/2015;0;99354
+Barcelona;R. Sociedad;1572;158;9/2013;0;99354
+Barcelona;R. Sociedad;1901;191;8/2012;0;99354
+Barcelona;Valladolid;1596;160;10/2013;0;99354
+Barcelona;Valladolid;2260;226;5/2013;0;99354
+Barcelona;Deportivo;453;46;10/2016;0;99354
+Barcelona;Deportivo;2170;217;3/2013;0;99354
+Barcelona;Eibar;754;76;5/2017;0;99354
+Barcelona;Eibar;841;85;10/2015;0;99354
+Barcelona;Eibar;1219;122;10/2014;0;99354
+Barcelona;Betis;2;1;8/2017;0;99354
+Barcelona;Betis;383;39;8/2016;0;99354
+Barcelona;Betis;925;93;12/2015;0;99354
+Barcelona;Betis;1833;184;4/2014;0;99354
+Barcelona;Betis;2237;224;5/2013;0;99354
+Barcelona;Sporting;630;63;3/2017;0;99354
+Barcelona;Sporting;1105;111;4/2016;0;99354
+Barcelona;Las Palmas;555;56;1/2017;0;99354
+Barcelona;Las Palmas;812;82;9/2015;0;99354
+Barcelona;Elche CF;1147;115;8/2014;0;99354
+Barcelona;Elche CF;1695;170;1/2014;0;99354
+Barcelona;UD Almería;1437;144;4/2015;0;99354
+Barcelona;UD Almería;1779;178;3/2014;0;99354
+Barcelona;Córdoba;1295;130;12/2014;0;99354
+Barcelona;Osasuna;716;72;4/2017;0;99354
+Barcelona;Osasuna;1797;180;3/2014;0;99354
+Barcelona;Osasuna;2107;211;1/2013;0;99354
+Barcelona;Villarreal CF;735;74;5/2017;0;99354
+Barcelona;Villarreal CF;862;87;11/2015;0;99354
+Barcelona;Villarreal CF;1349;135;2/2015;0;99354
+Barcelona;Villarreal CF;1674;168;12/2013;0;99354
+Barcelona;Alavés;406;41;9/2016;0;99354
+Barcelona;Mallorca;2199;220;4/2013;0;99354
+Barcelona;Zaragoza;2019;202;11/2012;0;99354
+Barcelona;Club Deportivo Leganés;609;61;2/2017;0;99354
+Espanyol;Barcelona;726;73;4/2017;1;40284
+Espanyol;Barcelona;1466;147;4/2015;1;40284
+Espanyol;Barcelona;1821;183;3/2014;1;40284
+Espanyol;Barcelona;2266;227;5/2013;1;40284
+Espanyol;R. Madrid;419;42;9/2016;1;40284
+Espanyol;R. Madrid;782;79;9/2015;1;40284
+Espanyol;R. Madrid;1508;151;5/2015;1;40284
+Espanyol;R. Madrid;1709;171;1/2014;1;40284
+Espanyol;Atlético;705;71;4/2017;1;40284
+Espanyol;Atlético;1074;108;4/2016;1;40284
+Espanyol;Atlético;1604;161;10/2013;1;40284
+Espanyol;Atlético;1952;196;9/2012;1;40284
+Espanyol;Getafe;762;77;8/2015;1;40284
+Espanyol;Getafe;1189;119;9/2014;1;40284
+Espanyol;Getafe;1588;159;9/2013;1;40284
+Espanyol;Getafe;2030;203;11/2012;1;40284
+Espanyol;Rayo;1040;104;3/2016;1;40284
+Espanyol;Rayo;1971;198;10/2012;1;40284
+Espanyol;Sevilla;578;58;1/2017;1;40284
+Espanyol;Sevilla;1116;112;5/2016;1;40284
+Espanyol;Sevilla;1156;116;8/2014;1;40284
+Espanyol;Sevilla;1649;165;11/2013;1;40284
+Espanyol;Valencia;747;75;5/2017;1;40284
+Espanyol;Valencia;802;81;9/2015;1;40284
+Espanyol;Valencia;1351;136;2/2015;1;40284
+Espanyol;Valencia;1534;154;8/2013;1;40284
+Espanyol;Levante;1265;127;11/2014;1;40284
+Espanyol;Levante;2114;212;2/2013;1;40284
+Espanyol;Málaga;879;88;11/2015;1;40284
+Espanyol;Athletic;1059;106;3/2016;1;40284
+Espanyol;Athletic;1445;145;4/2015;1;40284
+Espanyol;Athletic;1570;157;9/2013;1;40284
+Espanyol;Granada;567;57;1/2017;1;40284
+Espanyol;Granada;1286;129;12/2014;1;40284
+Espanyol;Granada;1741;175;2/2014;1;40284
+Espanyol;Granada;2227;223;4/2013;1;40284
+Espanyol;Celta;439;44;9/2016;1;40284
+Espanyol;Celta;1328;133;1/2015;1;40284
+Espanyol;Celta;1715;172;1/2014;1;40284
+Espanyol;Celta;2086;209;1/2013;1;40284
+Espanyol;R. Sociedad;592;60;2/2017;1;40284
+Espanyol;R. Sociedad;988;99;2/2016;1;40284
+Espanyol;R. Sociedad;1202;121;10/2014;1;40284
+Espanyol;R. Sociedad;1666;167;11/2013;1;40284
+Espanyol;Valladolid;1688;169;12/2013;1;40284
+Espanyol;Deportivo;1009;101;2/2016;1;40284
+Espanyol;Deportivo;2068;207;12/2012;1;40284
+Espanyol;Eibar;1135;114;5/2016;1;40284
+Espanyol;Eibar;1307;131;1/2015;1;40284
+Espanyol;Betis;663;67;4/2017;1;40284
+Espanyol;Betis;1030;103;3/2016;1;40284
+Espanyol;Betis;2132;214;2/2013;1;40284
+Espanyol;Sporting;525;53;12/2016;1;40284
+Espanyol;Sporting;829;83;10/2015;1;40284
+Espanyol;Las Palmas;642;65;3/2017;1;40284
+Espanyol;Las Palmas;917;92;12/2015;1;40284
+Espanyol;Elche CF;1785;179;3/2014;1;40284
+Espanyol;UD Almería;1336;134;1/2015;1;40284
+Espanyol;UD Almería;1868;187;4/2014;1;40284
+Espanyol;Córdoba;1382;139;3/2015;1;40284
+Espanyol;Osasuna;611;62;2/2017;1;40284
+Espanyol;Osasuna;2002;201;11/2012;1;40284
+Espanyol;Villarreal CF;1770;177;2/2014;1;40284
+Espanyol;Alavés;684;69;4/2017;1;40284
+Espanyol;Mallorca;2091;210;1/2013;1;40284
+Espanyol;Zaragoza;1912;192;8/2012;1;40284
+Espanyol;Club Deportivo Leganés;504;51;11/2016;1;40284
+R. Madrid;Barcelona;707;71;4/2017;2;81044
+R. Madrid;Barcelona;873;88;11/2015;2;81044
+R. Madrid;Barcelona;1228;123;10/2014;2;81044
+R. Madrid;Barcelona;1809;181;3/2014;2;81044
+R. Madrid;Barcelona;2159;216;3/2013;2;81044
+R. Madrid;Espanyol;602;61;2/2017;2;81044
+R. Madrid;Espanyol;977;98;1/2016;2;81044
+R. Madrid;Espanyol;1318;132;1/2015;2;81044
+R. Madrid;Espanyol;1899;190;5/2014;2;81044
+R. Madrid;Atlético;1015;102;2/2016;2;81044
+R. Madrid;Atlético;1164;117;9/2014;2;81044
+R. Madrid;Atlético;1585;159;9/2013;2;81044
+R. Madrid;Atlético;2039;204;12/2012;2;81044
+R. Madrid;Getafe;892;90;12/2015;2;81044
+R. Madrid;Getafe;1517;152;5/2015;2;81044
+R. Madrid;Getafe;1568;157;9/2013;2;81044
+R. Madrid;Getafe;2105;211;1/2013;2;81044
+R. Madrid;Rayo;911;92;12/2015;2;81044
+R. Madrid;Rayo;1249;125;11/2014;2;81044
+R. Madrid;Rayo;1824;183;3/2014;2;81044
+R. Madrid;Rayo;2140;214;2/2013;2;81044
+R. Madrid;Sevilla;749;75;5/2017;2;81044
+R. Madrid;Sevilla;1053;106;3/2016;2;81044
+R. Madrid;Sevilla;1299;130;12/2014;2;81044
+R. Madrid;Sevilla;1625;163;10/2013;2;81044
+R. Madrid;Sevilla;2130;213;2/2013;2;81044
+R. Madrid;Valencia;728;73;4/2017;2;81044
+R. Madrid;Valencia;1122;113;5/2016;2;81044
+R. Madrid;Levante;835;84;10/2015;2;81044
+R. Madrid;Levante;1408;141;3/2015;2;81044
+R. Madrid;Levante;1787;179;3/2014;2;81044
+R. Madrid;Levante;2197;220;4/2013;2;81044
+R. Madrid;Málaga;569;57;1/2017;2;81044
+R. Madrid;Málaga;1460;146;4/2015;2;81044
+R. Madrid;Málaga;1601;161;10/2013;2;81044
+R. Madrid;Málaga;2257;226;5/2013;2;81044
+R. Madrid;Athletic;464;47;10/2016;2;81044
+R. Madrid;Athletic;996;100;2/2016;2;81044
+R. Madrid;Athletic;1207;121;10/2014;2;81044
+R. Madrid;Athletic;1546;155;9/2013;2;81044
+R. Madrid;Athletic;2017;202;11/2012;2;81044
+R. Madrid;Granada;548;55;1/2017;2;81044
+R. Madrid;Granada;792;80;9/2015;2;81044
+R. Madrid;Granada;1429;143;4/2015;2;81044
+R. Madrid;Granada;1722;173;1/2014;2;81044
+R. Madrid;Granada;1927;193;9/2012;2;81044
+R. Madrid;Celta;395;40;8/2016;2;81044
+R. Madrid;Celta;1034;104;3/2016;2;81044
+R. Madrid;Celta;1280;128;12/2014;2;81044
+R. Madrid;Celta;1699;170;1/2014;2;81044
+R. Madrid;Celta;1979;198;10/2012;2;81044
+R. Madrid;R. Sociedad;571;58;1/2017;2;81044
+R. Madrid;R. Sociedad;921;93;12/2015;2;81044
+R. Madrid;R. Sociedad;1345;135;2/2015;2;81044
+R. Madrid;R. Sociedad;1643;165;11/2013;2;81044
+R. Madrid;R. Sociedad;2074;208;1/2013;2;81044
+R. Madrid;Valladolid;1665;167;11/2013;2;81044
+R. Madrid;Valladolid;2235;224;5/2013;2;81044
+R. Madrid;Deportivo;527;53;12/2016;2;81044
+R. Madrid;Deportivo;942;95;1/2016;2;81044
+R. Madrid;Deportivo;1366;137;2/2015;2;81044
+R. Madrid;Deportivo;1960;196;9/2012;2;81044
+R. Madrid;Eibar;1078;108;4/2016;2;81044
+R. Madrid;Eibar;1450;145;4/2015;2;81044
+R. Madrid;Betis;644;65;3/2017;2;81044
+R. Madrid;Betis;775;78;8/2015;2;81044
+R. Madrid;Betis;1525;153;8/2013;2;81044
+R. Madrid;Betis;2213;222;4/2013;2;81044
+R. Madrid;Sporting;506;51;11/2016;2;81044
+R. Madrid;Sporting;959;96;1/2016;2;81044
+R. Madrid;Las Palmas;854;86;11/2015;2;81044
+R. Madrid;Elche CF;1181;119;9/2014;2;81044
+R. Madrid;Elche CF;1762;177;2/2014;2;81044
+R. Madrid;UD Almería;1479;148;4/2015;2;81044
+R. Madrid;UD Almería;1845;185;4/2014;2;81044
+R. Madrid;Córdoba;1149;115;8/2014;2;81044
+R. Madrid;Osasuna;403;41;9/2016;2;81044
+R. Madrid;Osasuna;1870;187;4/2014;2;81044
+R. Madrid;Osasuna;2273;228;6/2013;2;81044
+R. Madrid;Villarreal CF;1091;110;4/2016;2;81044
+R. Madrid;Villarreal CF;1744;175;2/2014;2;81044
+R. Madrid;Alavés;665;67;4/2017;2;81044
+R. Madrid;Mallorca;2178;218;3/2013;2;81044
+R. Madrid;Zaragoza;1996;200;11/2012;2;81044
+R. Madrid;Club Deportivo Leganés;485;49;11/2016;2;81044
+Atlético;Barcelona;619;62;2/2017;3;68456
+Atlético;Barcelona;784;79;9/2015;3;68456
+Atlético;Barcelona;1504;151;5/2015;3;68456
+Atlético;Barcelona;2247;225;5/2013;3;68456
+Atlético;Espanyol;884;89;11/2015;3;68456
+Atlético;Espanyol;1213;122;10/2014;3;68456
+Atlético;Espanyol;1795;180;3/2014;3;68456
+Atlético;Espanyol;2142;215;2/2013;3;68456
+Atlético;R. Madrid;496;50;11/2016;3;68456
+Atlético;R. Madrid;1355;136;2/2015;3;68456
+Atlético;R. Madrid;2229;223;4/2013;3;68456
+Atlético;Getafe;801;81;9/2015;3;68456
+Atlético;Getafe;1412;142;3/2015;3;68456
+Atlético;Getafe;1655;166;11/2013;3;68456
+Atlético;Getafe;2004;201;11/2012;3;68456
+Atlético;Rayo;1120;112;5/2016;3;68456
+Atlético;Rayo;1333;134;1/2015;3;68456
+Atlético;Rayo;1536;154;8/2013;3;68456
+Atlético;Rayo;1931;194;9/2012;3;68456
+Atlético;Sevilla;657;66;3/2017;3;68456
+Atlético;Sevilla;1192;120;9/2014;3;68456
+Atlético;Sevilla;2022;203;11/2012;3;68456
+Atlético;Valencia;638;64;3/2017;3;68456
+Atlético;Valencia;846;85;10/2015;3;68456
+Atlético;Valencia;1676;168;12/2013;3;68456
+Atlético;Levante;940;94;1/2016;3;68456
+Atlético;Levante;1303;131;1/2015;3;68456
+Atlético;Levante;1684;169;12/2013;3;68456
+Atlético;Levante;2098;210;1/2013;3;68456
+Atlético;Málaga;477;48;10/2016;3;68456
+Atlético;Málaga;1110;111;4/2016;3;68456
+Atlético;Málaga;1251;126;11/2014;3;68456
+Atlético;Málaga;1962;197;10/2012;3;68456
+Atlético;Athletic;752;76;5/2017;3;68456
+Atlético;Athletic;909;91;12/2015;3;68456
+Atlético;Athletic;1637;164;11/2013;3;68456
+Atlético;Athletic;1920;192;8/2012;3;68456
+Atlético;Granada;454;46;10/2016;3;68456
+Atlético;Granada;1089;109;4/2016;3;68456
+Atlético;Granada;1324;133;1/2015;3;68456
+Atlético;Granada;1815;182;3/2014;3;68456
+Atlético;Granada;2205;221;4/2013;3;68456
+Atlético;Celta;600;60;2/2017;3;68456
+Atlético;Celta;1139;114;5/2016;3;68456
+Atlético;Celta;1599;160;10/2013;3;68456
+Atlético;Celta;2069;207;12/2012;3;68456
+Atlético;R. Sociedad;676;68;4/2017;3;68456
+Atlético;R. Sociedad;1026;103;3/2016;3;68456
+Atlético;R. Sociedad;1431;144;4/2015;3;68456
+Atlético;R. Sociedad;1738;174;2/2014;3;68456
+Atlético;R. Sociedad;2163;217;3/2013;3;68456
+Atlético;Valladolid;1752;176;2/2014;3;68456
+Atlético;Valladolid;1941;195;9/2012;3;68456
+Atlético;Deportivo;437;44;9/2016;3;68456
+Atlético;Deportivo;1047;105;3/2016;3;68456
+Atlético;Deportivo;1261;127;11/2014;3;68456
+Atlético;Deportivo;2046;205;12/2012;3;68456
+Atlético;Eibar;733;74;5/2017;3;68456
+Atlético;Eibar;984;99;2/2016;3;68456
+Atlético;Eibar;1155;116;8/2014;3;68456
+Atlético;Betis;553;56;1/2017;3;68456
+Atlético;Betis;1068;107;4/2016;3;68456
+Atlético;Betis;1617;162;10/2013;3;68456
+Atlético;Betis;2119;212;2/2013;3;68456
+Atlético;Sporting;413;42;9/2016;3;68456
+Atlético;Sporting;867;87;11/2015;3;68456
+Atlético;Las Palmas;534;54;12/2016;3;68456
+Atlético;Las Palmas;764;77;8/2015;3;68456
+Atlético;Elche CF;1462;147;4/2015;3;68456
+Atlético;Elche CF;1853;186;4/2014;3;68456
+Atlético;UD Almería;1374;138;2/2015;3;68456
+Atlético;UD Almería;1551;156;9/2013;3;68456
+Atlético;Córdoba;1232;124;11/2014;3;68456
+Atlético;Osasuna;695;70;4/2017;3;68456
+Atlético;Osasuna;1573;158;9/2013;3;68456
+Atlético;Osasuna;1983;199;10/2012;3;68456
+Atlético;Villarreal CF;714;72;4/2017;3;68456
+Atlético;Villarreal CF;1282;129;12/2014;3;68456
+Atlético;Villarreal CF;1832;184;4/2014;3;68456
+Atlético;Zaragoza;2088;209;1/2013;3;68456
+Atlético;Club Deportivo Leganés;590;59;2/2017;3;68456
+Getafe;Barcelona;851;86;11/2015;4;17393
+Getafe;Barcelona;1686;169;12/2013;4;17393
+Getafe;Barcelona;1938;194;9/2012;4;17393
+Getafe;Espanyol;955;96;1/2016;4;17393
+Getafe;Espanyol;1371;138;2/2015;4;17393
+Getafe;Espanyol;2220;222;4/2013;4;17393
+Getafe;R. Madrid;1082;109;4/2016;4;17393
+Getafe;R. Madrid;1327;133;1/2015;4;17393
+Getafe;R. Madrid;1757;176;2/2014;4;17393
+Getafe;R. Madrid;1917;192;8/2012;4;17393
+Getafe;Atlético;994;100;2/2016;4;17393
+Getafe;Atlético;1222;123;10/2014;4;17393
+Getafe;Atlético;1848;185;4/2014;4;17393
+Getafe;Rayo;1306;131;1/2015;4;17393
+Getafe;Rayo;1707;171;1/2014;4;17393
+Getafe;Rayo;2261;227;5/2013;4;17393
+Getafe;Sevilla;1352;136;2/2015;4;17393
+Getafe;Sevilla;1884;189;5/2014;4;17393
+Getafe;Valencia;1180;118;9/2014;4;17393
+Getafe;Valencia;1636;164;11/2013;4;17393
+Getafe;Valencia;2254;226;5/2013;4;17393
+Getafe;Levante;819;82;9/2015;4;17393
+Getafe;Levante;1465;147;4/2015;4;17393
+Getafe;Levante;1661;167;11/2013;4;17393
+Getafe;Levante;1976;198;10/2012;4;17393
+Getafe;Málaga;791;80;9/2015;4;17393
+Getafe;Málaga;1197;120;9/2014;4;17393
+Getafe;Málaga;1863;187;4/2014;4;17393
+Getafe;Málaga;2036;204;12/2012;4;17393
+Getafe;Athletic;975;98;1/2016;4;17393
+Getafe;Athletic;1264;127;11/2014;4;17393
+Getafe;Athletic;1620;162;10/2013;4;17393
+Getafe;Athletic;2175;218;3/2013;4;17393
+Getafe;Granada;780;78;8/2015;4;17393
+Getafe;Granada;1486;149;5/2015;4;17393
+Getafe;Celta;1013;102;2/2016;4;17393
+Getafe;Celta;1334;134;1/2015;4;17393
+Getafe;Celta;1580;158;9/2013;4;17393
+Getafe;Celta;2137;214;2/2013;4;17393
+Getafe;R. Sociedad;1402;141;3/2015;4;17393
+Getafe;R. Sociedad;2232;224;5/2013;4;17393
+Getafe;Valladolid;2014;202;11/2012;4;17393
+Getafe;Deportivo;1423;143;4/2015;4;17393
+Getafe;Deportivo;2113;212;2/2013;4;17393
+Getafe;Betis;944;95;1/2016;4;17393
+Getafe;Betis;1598;160;10/2013;4;17393
+Getafe;Betis;2000;200;11/2012;4;17393
+Getafe;Las Palmas;833;84;10/2015;4;17393
+Getafe;UD Almería;1151;116;8/2014;4;17393
+Getafe;Osasuna;1557;156;9/2013;4;17393
+Getafe;Villarreal CF;887;89;11/2015;4;17393
+Getafe;Villarreal CF;1817;182;3/2014;4;17393
+Getafe;Mallorca;1957;196;9/2012;4;17393
+Getafe;Zaragoza;2156;216;3/2013;4;17393
+Rayo;Barcelona;1021;103;3/2016;5;14500
+Rayo;Barcelona;1209;121;10/2014;5;14500
+Rayo;Barcelona;1564;157;9/2013;5;14500
+Rayo;Barcelona;1990;199;10/2012;5;14500
+Rayo;Espanyol;850;85;10/2015;5;14500
+Rayo;Espanyol;1297;130;12/2014;5;14500
+Rayo;Espanyol;1659;166;11/2013;5;14500
+Rayo;Espanyol;2161;217;3/2013;5;14500
+Rayo;R. Madrid;1101;111;4/2016;5;14500
+Rayo;R. Madrid;1439;144;4/2015;5;14500
+Rayo;R. Madrid;1634;164;11/2013;5;14500
+Rayo;R. Madrid;1950;195;9/2012;5;14500
+Rayo;Atlético;930;93;12/2015;5;14500
+Rayo;Atlético;1728;173;1/2014;5;14500
+Rayo;Atlético;2121;213;2/2013;5;14500
+Rayo;Getafe;1061;107;4/2016;5;14500
+Rayo;Getafe;1496;150;5/2015;5;14500
+Rayo;Getafe;1894;190;5/2014;5;14500
+Rayo;Getafe;2071;208;1/2013;5;14500
+Rayo;Sevilla;1278;128;12/2014;5;14500
+Rayo;Sevilla;1766;177;2/2014;5;14500
+Rayo;Valencia;1780;178;3/2014;5;14500
+Rayo;Valencia;2241;225;5/2013;5;14500
+Rayo;Levante;1140;114;5/2016;5;14500
+Rayo;Levante;1389;139;3/2015;5;14500
+Rayo;Levante;1542;155;8/2013;5;14500
+Rayo;Levante;2063;207;12/2012;5;14500
+Rayo;Málaga;910;91;12/2015;5;14500
+Rayo;Málaga;1420;142;3/2015;5;14500
+Rayo;Málaga;1743;175;2/2014;5;14500
+Rayo;Málaga;2181;219;3/2013;5;14500
+Rayo;Athletic;886;89;11/2015;5;14500
+Rayo;Athletic;1185;119;9/2014;5;14500
+Rayo;Athletic;1875;188;5/2014;5;14500
+Rayo;Granada;870;87;11/2015;5;14500
+Rayo;Granada;1410;141;3/2015;5;14500
+Rayo;Granada;1673;168;12/2013;5;14500
+Rayo;Granada;1909;191;8/2012;5;14500
+Rayo;Celta;961;97;1/2016;5;14500
+Rayo;Celta;1259;126;11/2014;5;14500
+Rayo;Celta;1835;184;4/2014;5;14500
+Rayo;Celta;2010;201;11/2012;5;14500
+Rayo;R. Sociedad;1515;152;5/2015;5;14500
+Rayo;R. Sociedad;1594;160;10/2013;5;14500
+Rayo;R. Sociedad;2201;221;4/2013;5;14500
+Rayo;Valladolid;1611;162;10/2013;5;14500
+Rayo;Valladolid;2141;215;2/2013;5;14500
+Rayo;Deportivo;790;79;9/2015;5;14500
+Rayo;Deportivo;1347;135;2/2015;5;14500
+Rayo;Deportivo;1970;197;10/2012;5;14500
+Rayo;Eibar;1240;124;11/2014;5;14500
+Rayo;Betis;830;83;10/2015;5;14500
+Rayo;Betis;1855;186;4/2014;5;14500
+Rayo;Betis;2106;211;1/2013;5;14500
+Rayo;Sporting;806;81;9/2015;5;14500
+Rayo;Las Palmas;981;99;2/2016;5;14500
+Rayo;Elche CF;1166;117;9/2014;5;14500
+Rayo;Elche CF;1528;153;8/2013;5;14500
+Rayo;UD Almería;1458;146;4/2015;5;14500
+Rayo;UD Almería;1793;180;3/2014;5;14500
+Rayo;Córdoba;1316;132;1/2015;5;14500
+Rayo;Osasuna;1814;182;3/2014;5;14500
+Rayo;Villarreal CF;1081;109;4/2016;5;14500
+Rayo;Villarreal CF;1368;137;2/2015;5;14500
+Rayo;Villarreal CF;1700;170;1/2014;5;14500
+Rayo;Mallorca;2027;203;11/2012;5;14500
+Rayo;Zaragoza;2050;205;12/2012;5;14500
+Sevilla;Barcelona;488;49;11/2016;6;43842
+Sevilla;Barcelona;821;83;10/2015;6;43842
+Sevilla;Barcelona;1749;175;2/2014;6;43842
+Sevilla;Barcelona;1959;196;9/2012;6;43842
+Sevilla;Espanyol;385;39;8/2016;6;43842
+Sevilla;Espanyol;926;93;12/2015;6;43842
+Sevilla;Espanyol;1342;135;2/2015;6;43842
+Sevilla;Espanyol;1838;184;4/2014;6;43842
+Sevilla;Espanyol;2234;224;5/2013;6;43842
+Sevilla;R. Madrid;559;56;1/2017;6;43842
+Sevilla;R. Madrid;863;87;11/2015;6;43842
+Sevilla;R. Madrid;1489;149;5/2015;6;43842
+Sevilla;R. Madrid;1816;182;3/2014;6;43842
+Sevilla;R. Madrid;1940;194;9/2012;6;43842
+Sevilla;Atlético;467;47;10/2016;6;43842
+Sevilla;Atlético;777;78;8/2015;6;43842
+Sevilla;Atlético;1527;153;8/2013;6;43842
+Sevilla;Atlético;2212;222;4/2013;6;43842
+Sevilla;Getafe;842;85;10/2015;6;43842
+Sevilla;Getafe;1168;117;9/2014;6;43842
+Sevilla;Getafe;1696;170;1/2014;6;43842
+Sevilla;Getafe;1907;191;8/2012;6;43842
+Sevilla;Rayo;814;82;9/2015;6;43842
+Sevilla;Rayo;1468;147;4/2015;6;43842
+Sevilla;Rayo;1577;158;9/2013;6;43842
+Sevilla;Rayo;2117;212;2/2013;6;43842
+Sevilla;Valencia;509;51;11/2016;6;43842
+Sevilla;Valencia;890;89;11/2015;6;43842
+Sevilla;Valencia;2272;228;6/2013;6;43842
+Sevilla;Levante;972;98;1/2016;6;43842
+Sevilla;Levante;1725;173;1/2014;6;43842
+Sevilla;Málaga;540;54;12/2016;6;43842
+Sevilla;Málaga;952;96;1/2016;6;43842
+Sevilla;Málaga;1330;133;1/2015;6;43842
+Sevilla;Málaga;2054;206;12/2012;6;43842
+Sevilla;Athletic;626;63;3/2017;6;43842
+Sevilla;Athletic;947;95;1/2016;6;43842
+Sevilla;Athletic;1426;143;4/2015;6;43842
+Sevilla;Athletic;2196;220;4/2013;6;43842
+Sevilla;Granada;710;71;4/2017;6;43842
+Sevilla;Granada;1127;113;5/2016;6;43842
+Sevilla;Granada;1267;127;11/2014;6;43842
+Sevilla;Granada;1856;186;4/2014;6;43842
+Sevilla;Granada;2110;211;1/2013;6;43842
+Sevilla;Celta;720;72;4/2017;6;43842
+Sevilla;Celta;796;80;9/2015;6;43842
+Sevilla;Celta;1309;131;1/2015;6;43842
+Sevilla;Celta;1635;164;11/2013;6;43842
+Sevilla;Celta;2158;216;3/2013;6;43842
+Sevilla;R. Sociedad;1064;107;4/2016;6;43842
+Sevilla;R. Sociedad;1186;119;9/2014;6;43842
+Sevilla;R. Sociedad;1778;178;3/2014;6;43842
+Sevilla;R. Sociedad;2256;226;5/2013;6;43842
+Sevilla;Valladolid;1798;180;3/2014;6;43842
+Sevilla;Valladolid;2038;204;12/2012;6;43842
+Sevilla;Deportivo;689;69;4/2017;6;43842
+Sevilla;Deportivo;1204;121;10/2014;6;43842
+Sevilla;Deportivo;2139;214;2/2013;6;43842
+Sevilla;Eibar;605;61;2/2017;6;43842
+Sevilla;Eibar;1022;103;3/2016;6;43842
+Sevilla;Betis;422;43;9/2016;6;43842
+Sevilla;Betis;1106;111;4/2016;6;43842
+Sevilla;Betis;1658;166;11/2013;6;43842
+Sevilla;Betis;2016;202;11/2012;6;43842
+Sevilla;Sporting;905;91;12/2015;6;43842
+Sevilla;Las Palmas;405;41;9/2016;6;43842
+Sevilla;Las Palmas;991;100;2/2016;6;43842
+Sevilla;Elche CF;1405;141;3/2015;6;43842
+Sevilla;Elche CF;1893;190;5/2014;6;43842
+Sevilla;UD Almería;1510;151;5/2015;6;43842
+Sevilla;UD Almería;1600;160;10/2013;6;43842
+Sevilla;Córdoba;1363;137;2/2015;6;43842
+Sevilla;Osasuna;758;76;5/2017;6;43842
+Sevilla;Osasuna;1618;162;10/2013;6;43842
+Sevilla;Osasuna;2073;208;1/2013;6;43842
+Sevilla;Villarreal CF;1043;105;3/2016;6;43842
+Sevilla;Villarreal CF;1225;123;10/2014;6;43842
+Sevilla;Alavés;443;45;10/2016;6;43842
+Sevilla;Mallorca;1978;198;10/2012;6;43842
+Sevilla;Zaragoza;2177;218;3/2013;6;43842
+Valencia;Barcelona;469;47;10/2016;7;55000
+Valencia;Barcelona;1266;127;11/2014;7;55000
+Valencia;Barcelona;1550;155;9/2013;7;55000
+Valencia;Espanyol;557;56;1/2017;7;55000
+Valencia;Espanyol;998;100;2/2016;7;55000
+Valencia;Espanyol;1167;117;9/2014;7;55000
+Valencia;Espanyol;2013;202;11/2012;7;55000
+Valencia;R. Madrid;538;54;2/2017;7;55000
+Valencia;R. Madrid;1308;131;1/2015;7;55000
+Valencia;R. Madrid;1690;169;12/2013;7;55000
+Valencia;R. Madrid;2099;210;1/2013;7;55000
+Valencia;Atlético;446;45;10/2016;7;55000
+Valencia;Atlético;1036;104;3/2016;7;55000
+Valencia;Atlético;1203;121;10/2014;7;55000
+Valencia;Atlético;1861;187;4/2014;7;55000
+Valencia;Atlético;1999;200;11/2012;7;55000
+Valencia;Getafe;1362;137;2/2015;7;55000
+Valencia;Getafe;1828;183;3/2014;7;55000
+Valencia;Getafe;2064;207;12/2012;7;55000
+Valencia;Rayo;1287;129;12/2014;7;55000
+Valencia;Rayo;1582;159;9/2013;7;55000
+Valencia;Rayo;2051;206;12/2012;7;55000
+Valencia;Sevilla;1080;108;4/2016;7;55000
+Valencia;Sevilla;1331;134;1/2015;7;55000
+Valencia;Sevilla;1569;157;9/2013;7;55000
+Valencia;Sevilla;2082;209;1/2013;7;55000
+Valencia;Levante;856;86;11/2015;7;55000
+Valencia;Levante;1446;145;4/2015;7;55000
+Valencia;Levante;1693;170;1/2014;7;55000
+Valencia;Málaga;837;84;10/2015;7;55000
+Valencia;Málaga;1152;116;8/2014;7;55000
+Valencia;Málaga;1523;153;8/2013;7;55000
+Valencia;Málaga;2219;222;4/2013;7;55000
+Valencia;Athletic;607;61;2/2017;7;55000
+Valencia;Athletic;1017;102;2/2016;7;55000
+Valencia;Athletic;1975;198;10/2012;7;55000
+Valencia;Granada;811;82;9/2015;7;55000
+Valencia;Granada;1467;147;4/2015;7;55000
+Valencia;Granada;1768;177;2/2014;7;55000
+Valencia;Granada;2262;227;5/2013;7;55000
+Valencia;Celta;680;68;4/2017;7;55000
+Valencia;Celta;1055;106;3/2016;7;55000
+Valencia;Celta;1900;190;5/2014;7;55000
+Valencia;Celta;1937;194;9/2012;7;55000
+Valencia;R. Sociedad;718;72;4/2017;7;55000
+Valencia;R. Sociedad;1131;114;5/2016;7;55000
+Valencia;R. Sociedad;1383;139;3/2015;7;55000
+Valencia;R. Sociedad;1602;161;10/2013;7;55000
+Valencia;R. Sociedad;2035;204;12/2012;7;55000
+Valencia;Valladolid;2193;220;4/2013;7;55000
+Valencia;Deportivo;670;67;4/2017;7;55000
+Valencia;Deportivo;1404;141;3/2015;7;55000
+Valencia;Eibar;586;59;2/2017;7;55000
+Valencia;Eibar;1093;110;4/2016;7;55000
+Valencia;Eibar;1488;149;5/2015;7;55000
+Valencia;Betis;408;41;9/2016;7;55000
+Valencia;Betis;1742;175;2/2014;7;55000
+Valencia;Betis;2174;218;3/2013;7;55000
+Valencia;Sporting;979;98;1/2016;7;55000
+Valencia;Las Palmas;8;1;8/2017;7;55000
+Valencia;Las Palmas;390;39;8/2016;7;55000
+Valencia;Elche CF;1224;123;10/2014;7;55000
+Valencia;Elche CF;1847;185;4/2014;7;55000
+Valencia;UD Almería;1329;133;1/2015;7;55000
+Valencia;UD Almería;1624;163;10/2013;7;55000
+Valencia;Córdoba;1190;119;9/2014;7;55000
+Valencia;Osasuna;737;74;5/2017;7;55000
+Valencia;Osasuna;1670;167;12/2013;7;55000
+Valencia;Osasuna;2231;224;5/2013;7;55000
+Valencia;Villarreal CF;756;76;5/2017;7;55000
+Valencia;Villarreal CF;1112;112;5/2016;7;55000
+Valencia;Villarreal CF;1808;181;3/2014;7;55000
+Valencia;Alavés;430;43;9/2016;7;55000
+Valencia;Mallorca;2136;214;2/2013;7;55000
+Valencia;Zaragoza;1956;196;9/2012;7;55000
+Valencia;Club Deportivo Leganés;628;63;3/2017;7;55000
+Levante;Barcelona;983;99;2/2016;8;25445
+Levante;Barcelona;1179;118;9/2014;8;25445
+Levante;Barcelona;2025;203;11/2012;8;25445
+Levante;Espanyol;1088;109;4/2016;8;25445
+Levante;Espanyol;1615;162;10/2013;8;25445
+Levante;Espanyol;1929;193;9/2012;8;25445
+Levante;R. Madrid;1025;103;3/2016;8;25445
+Levante;R. Madrid;1218;122;10/2014;8;25445
+Levante;R. Madrid;1595;160;10/2013;8;25445
+Levante;R. Madrid;2007;201;11/2012;8;25445
+Levante;Atlético;1130;113;5/2016;8;25445
+Levante;Atlético;1871;188;5/2014;8;25445
+Levante;Getafe;1004;101;2/2016;8;25445
+Levante;Rayo;950;95;1/2016;8;25445
+Levante;Rayo;1193;120;9/2014;8;25445
+Levante;Rayo;2253;226;5/2013;8;25445
+Levante;Sevilla;1436;144;4/2015;8;25445
+Levante;Sevilla;2185;219;3/2013;8;25445
+Levante;Valencia;1046;105;3/2016;8;25445
+Levante;Valencia;1256;126;11/2014;8;25445
+Levante;Valencia;1881;189;5/2014;8;25445
+Levante;Valencia;1965;197;10/2012;8;25445
+Levante;Málaga;929;93;12/2015;8;25445
+Levante;Málaga;1360;136;2/2015;8;25445
+Levante;Málaga;1706;171;1/2014;8;25445
+Levante;Málaga;2124;213;2/2013;8;25445
+Levante;Athletic;1350;135;2/2015;8;25445
+Levante;Athletic;1840;184;4/2014;8;25445
+Levante;Athletic;2080;208;1/2013;8;25445
+Levante;Granada;908;91;12/2015;8;25445
+Levante;Granada;1379;138;2/2015;8;25445
+Levante;Granada;1638;164;11/2013;8;25445
+Levante;Granada;1986;199;10/2012;8;25445
+Levante;Celta;768;77;8/2015;8;25445
+Levante;Celta;1417;142;3/2015;8;25445
+Levante;Celta;1792;180;3/2014;8;25445
+Levante;Celta;2222;223;4/2013;8;25445
+Levante;R. Sociedad;845;85;10/2015;8;25445
+Levante;R. Sociedad;1944;195;9/2012;8;25445
+Levante;Valladolid;2102;211;1/2013;8;25445
+Levante;Deportivo;2208;221;4/2013;8;25445
+Levante;Eibar;1398;140;3/2015;8;25445
+Levante;Betis;883;89;11/2015;8;25445
+Levante;Betis;1819;182;3/2014;8;25445
+Levante;Las Palmas;962;97;1/2016;8;25445
+Levante;Elche CF;1671;168;12/2013;8;25445
+Levante;UD Almería;1237;124;11/2014;8;25445
+Levante;UD Almería;1753;176;2/2014;8;25445
+Levante;Córdoba;1474;148;4/2015;8;25445
+Levante;Osasuna;1773;178;3/2014;8;25445
+Levante;Osasuna;2145;215;2/2013;8;25445
+Levante;Villarreal CF;9;1;8/2017;8;25445
+Levante;Villarreal CF;824;83;10/2015;8;25445
+Levante;Villarreal CF;1148;115;8/2014;8;25445
+Levante;Villarreal CF;1657;166;11/2013;8;25445
+Levante;Mallorca;2049;205;12/2012;8;25445
+Málaga;Barcelona;688;69;4/2017;9;30328
+Málaga;Barcelona;964;97;1/2016;9;30328
+Málaga;Barcelona;1538;154;8/2013;9;30328
+Málaga;Barcelona;2085;209;1/2013;9;30328
+Málaga;Espanyol;583;59;2/2017;9;30328
+Málaga;Espanyol;1361;137;2/2015;9;30328
+Málaga;Espanyol;1811;182;3/2014;9;30328
+Málaga;Espanyol;2171;218;3/2013;9;30328
+Málaga;R. Madrid;759;76;5/2017;9;30328
+Málaga;R. Madrid;1270;127;11/2014;9;30328
+Málaga;R. Madrid;1794;180;3/2014;9;30328
+Málaga;R. Madrid;2067;207;12/2012;9;30328
+Málaga;Atlético;667;67;4/2017;9;30328
+Málaga;Atlético;920;92;12/2015;9;30328
+Málaga;Atlético;1691;170;1/2014;9;30328
+Málaga;Getafe;985;99;2/2016;9;30328
+Málaga;Getafe;1381;139;3/2015;9;30328
+Málaga;Getafe;1675;168;12/2013;9;30328
+Málaga;Getafe;2226;223;4/2013;9;30328
+Málaga;Rayo;1230;123;10/2014;9;30328
+Málaga;Rayo;1558;156;9/2013;9;30328
+Málaga;Rayo;1991;200;11/2012;9;30328
+Málaga;Sevilla;730;73;4/2017;9;30328
+Málaga;Sevilla;1520;152;5/2015;9;30328
+Málaga;Sevilla;1735;174;2/2014;9;30328
+Málaga;Valencia;709;71;4/2017;9;30328
+Málaga;Valencia;1027;103;3/2016;9;30328
+Málaga;Valencia;1341;135;2/2015;9;30328
+Málaga;Valencia;2029;203;11/2012;9;30328
+Málaga;Levante;1119;112;5/2016;9;30328
+Málaga;Levante;1891;190;5/2014;9;30328
+Málaga;Levante;1934;194;9/2012;9;30328
+Málaga;Athletic;448;45;10/2016;9;30328
+Málaga;Athletic;1090;109;4/2016;9;30328
+Málaga;Athletic;1141;115;8/2014;9;30328
+Málaga;Athletic;1660;166;11/2013;9;30328
+Málaga;Athletic;2133;214;2/2013;9;30328
+Málaga;Granada;1210;121;10/2014;9;30328
+Málaga;Granada;1836;184;4/2014;9;30328
+Málaga;Granada;2043;205;12/2012;9;30328
+Málaga;Celta;740;74;5/2017;9;30328
+Málaga;Celta;939;94;1/2016;9;30328
+Málaga;Celta;1290;129;12/2014;9;30328
+Málaga;Celta;1612;162;10/2013;9;30328
+Málaga;R. Sociedad;560;56;1/2017;9;30328
+Málaga;R. Sociedad;826;83;10/2015;9;30328
+Málaga;R. Sociedad;1760;176;2/2014;9;30328
+Málaga;R. Sociedad;2001;201;11/2012;9;30328
+Málaga;Valladolid;1972;198;10/2012;9;30328
+Málaga;Deportivo;508;51;11/2016;9;30328
+Málaga;Deportivo;847;85;10/2015;9;30328
+Málaga;Deportivo;2265;227;5/2013;9;30328
+Málaga;Eibar;10;1;8/2017;9;30328
+Málaga;Eibar;421;43;9/2016;9;30328
+Málaga;Eibar;1250;125;11/2014;9;30328
+Málaga;Betis;625;63;3/2017;9;30328
+Málaga;Betis;868;87;11/2015;9;30328
+Málaga;Betis;1639;164;11/2013;9;30328
+Málaga;Betis;1953;196;9/2012;9;30328
+Málaga;Sporting;487;49;11/2016;9;30328
+Málaga;Sporting;1048;105;3/2016;9;30328
+Málaga;Las Palmas;604;61;2/2017;9;30328
+Málaga;Las Palmas;1138;114;5/2016;9;30328
+Málaga;Elche CF;1481;149;5/2015;9;30328
+Málaga;Elche CF;1872;188;5/2014;9;30328
+Málaga;UD Almería;1310;131;1/2015;9;30328
+Málaga;UD Almería;1574;158;9/2013;9;30328
+Málaga;Córdoba;1401;141;3/2015;9;30328
+Málaga;Osasuna;1592;160;10/2013;9;30328
+Málaga;Osasuna;2202;221;4/2013;9;30328
+Málaga;Villarreal CF;404;41;9/2016;9;30328
+Málaga;Villarreal CF;809;81;9/2015;9;30328
+Málaga;Villarreal CF;1858;186;4/2014;9;30328
+Málaga;Alavés;646;65;3/2017;9;30328
+Málaga;Club Deportivo Leganés;466;47;10/2016;9;30328
+Athletic;Barcelona;399;40;8/2016;10;53289
+Athletic;Barcelona;766;77;8/2015;10;53289
+Athletic;Barcelona;1359;136;2/2015;10;53289
+Athletic;Barcelona;1667;167;12/2013;10;53289
+Athletic;Espanyol;673;68;4/2017;10;53289
+Athletic;Espanyol;869;87;11/2015;10;53289
+Athletic;Espanyol;1255;126;11/2014;10;53289
+Athletic;Espanyol;1758;176;2/2014;10;53289
+Athletic;Espanyol;2123;213;2/2013;10;53289
+Athletic;R. Madrid;654;66;3/2017;10;53289
+Athletic;R. Madrid;807;81;9/2015;10;53289
+Athletic;R. Madrid;1397;140;3/2015;10;53289
+Athletic;R. Madrid;2207;221;4/2013;10;53289
+Athletic;Atlético;1099;110;4/2016;10;53289
+Athletic;Atlético;1293;130;12/2014;10;53289
+Athletic;Atlético;1823;183;3/2014;10;53289
+Athletic;Atlético;2109;211;1/2013;10;53289
+Athletic;Getafe;787;79;9/2015;10;53289
+Athletic;Getafe;1454;146;4/2015;10;53289
+Athletic;Getafe;1805;181;3/2014;10;53289
+Athletic;Getafe;1985;199;10/2012;10;53289
+Athletic;Rayo;1076;108;4/2016;10;53289
+Athletic;Rayo;1378;138;2/2015;10;53289
+Athletic;Rayo;1687;169;12/2013;10;53289
+Athletic;Rayo;2090;209;1/2013;10;53289
+Athletic;Sevilla;434;44;9/2016;10;53289
+Athletic;Sevilla;1137;114;5/2016;10;53289
+Athletic;Sevilla;1236;124;11/2014;10;53289
+Athletic;Sevilla;1865;187;4/2014;10;53289
+Athletic;Sevilla;2006;201;11/2012;10;53289
+Athletic;Valencia;417;42;9/2016;10;53289
+Athletic;Valencia;827;83;10/2015;10;53289
+Athletic;Valencia;2165;217;3/2013;10;53289
+Athletic;Levante;919;92;12/2015;10;53289
+Athletic;Levante;1154;116;8/2014;10;53289
+Athletic;Levante;1645;165;11/2013;10;53289
+Athletic;Levante;2270;227;5/2013;10;53289
+Athletic;Málaga;635;64;3/2017;10;53289
+Athletic;Málaga;1850;185;4/2014;10;53289
+Athletic;Granada;616;62;2/2017;10;53289
+Athletic;Granada;1173;118;9/2014;10;53289
+Athletic;Granada;1771;178;2/2014;10;53289
+Athletic;Granada;2184;219;3/2013;10;53289
+Athletic;Celta;531;54;12/2016;10;53289
+Athletic;Celta;1118;112;5/2016;10;53289
+Athletic;Celta;1560;156;9/2013;10;53289
+Athletic;Celta;2048;205;12/2012;10;53289
+Athletic;R. Sociedad;457;46;10/2016;10;53289
+Athletic;R. Sociedad;1007;101;2/2016;10;53289
+Athletic;R. Sociedad;2144;215;2/2013;10;53289
+Athletic;Valladolid;1720;172;1/2014;10;53289
+Athletic;Valladolid;1930;193;9/2012;10;53289
+Athletic;Deportivo;597;60;2/2017;10;53289
+Athletic;Deportivo;1028;103;3/2016;10;53289
+Athletic;Eibar;512;52;12/2016;10;53289
+Athletic;Eibar;965;97;1/2016;10;53289
+Athletic;Betis;711;72;4/2017;10;53289
+Athletic;Betis;1049;105;3/2016;10;53289
+Athletic;Betis;1578;158;9/2013;10;53289
+Athletic;Betis;1903;191;8/2012;10;53289
+Athletic;Sporting;573;58;1/2017;10;53289
+Athletic;Sporting;848;85;10/2015;10;53289
+Athletic;Las Palmas;692;70;4/2017;10;53289
+Athletic;Elche CF;1312;132;1/2015;10;53289
+Athletic;UD Almería;1416;142;3/2015;10;53289
+Athletic;UD Almería;1702;171;1/2014;10;53289
+Athletic;Córdoba;1274;128;12/2014;10;53289
+Athletic;Osasuna;1532;154;8/2013;10;53289
+Athletic;Osasuna;1964;197;10/2012;10;53289
+Athletic;Villarreal CF;493;50;11/2016;10;53289
+Athletic;Villarreal CF;1511;152;5/2015;10;53289
+Athletic;Villarreal CF;1610;161;10/2013;10;53289
+Athletic;Mallorca;2249;225;5/2013;10;53289
+Athletic;Zaragoza;2062;207;12/2012;10;53289
+Granada;Barcelona;669;67;4/2017;11;19068
+Granada;Barcelona;1136;114;5/2016;11;19068
+Granada;Barcelona;1390;139;3/2015;11;19068
+Granada;Barcelona;1844;185;4/2014;11;19068
+Granada;Barcelona;2138;214;2/2013;11;19068
+Granada;Espanyol;757;76;5/2017;11;19068
+Granada;Espanyol;1476;148;4/2015;11;19068
+Granada;Espanyol;1556;156;9/2013;11;19068
+Granada;R. Madrid;738;74;5/2017;11;19068
+Granada;R. Madrid;987;99;2/2016;11;19068
+Granada;R. Madrid;1239;124;11/2014;11;19068
+Granada;R. Madrid;1540;154;8/2013;11;19068
+Granada;R. Madrid;2115;212;2/2013;11;19068
+Granada;Atlético;648;65;3/2017;11;19068
+Granada;Atlético;899;90;12/2015;11;19068
+Granada;Atlético;1629;163;10/2013;11;19068
+Granada;Atlético;2015;202;11/2012;11;19068
+Granada;Getafe;966;97;1/2016;11;19068
+Granada;Getafe;1605;161;10/2013;11;19068
+Granada;Getafe;2271;228;6/2013;11;19068
+Granada;Rayo;1220;122;10/2014;11;19068
+Granada;Rayo;1866;187;4/2014;11;19068
+Granada;Rayo;2092;210;1/2013;11;19068
+Granada;Sevilla;520;52;12/2016;11;19068
+Granada;Sevilla;937;94;1/2016;11;19068
+Granada;Sevilla;1668;167;12/2013;11;19068
+Granada;Valencia;690;69;4/2017;11;19068
+Granada;Valencia;1008;101;2/2016;11;19068
+Granada;Valencia;1575;158;9/2013;11;19068
+Granada;Valencia;2072;208;1/2013;11;19068
+Granada;Levante;1098;110;4/2016;11;19068
+Granada;Levante;1187;119;9/2014;11;19068
+Granada;Levante;1829;183;3/2014;11;19068
+Granada;Málaga;719;72;4/2017;11;19068
+Granada;Málaga;1400;140;3/2015;11;19068
+Granada;Málaga;1642;165;11/2013;11;19068
+Granada;Málaga;2233;224;5/2013;11;19068
+Granada;Athletic;427;43;9/2016;11;19068
+Granada;Athletic;880;88;11/2015;11;19068
+Granada;Athletic;1590;159;9/2013;11;19068
+Granada;Athletic;1994;200;11/2012;11;19068
+Granada;Celta;700;70;4/2017;11;19068
+Granada;Celta;918;92;12/2015;11;19068
+Granada;Celta;1731;174;1/2014;11;19068
+Granada;Celta;1958;196;9/2012;11;19068
+Granada;R. Sociedad;539;54;12/2016;11;19068
+Granada;R. Sociedad;803;81;9/2015;11;19068
+Granada;R. Sociedad;1685;169;12/2013;11;19068
+Granada;Valladolid;1701;171;1/2014;11;19068
+Granada;Deportivo;1143;115;8/2014;11;19068
+Granada;Eibar;409;41;9/2016;11;19068
+Granada;Eibar;770;77;8/2015;11;19068
+Granada;Betis;606;61;2/2017;11;19068
+Granada;Betis;1756;176;2/2014;11;19068
+Granada;Betis;2195;220;4/2013;11;19068
+Granada;Sporting;1029;103;3/2016;11;19068
+Granada;Las Palmas;585;59;2/2017;11;19068
+Granada;Las Palmas;1117;112;5/2016;11;19068
+Granada;Elche CF;1348;135;2/2015;11;19068
+Granada;Elche CF;1802;181;3/2014;11;19068
+Granada;UD Almería;1887;189;5/2014;11;19068
+Granada;Córdoba;1495;150;5/2015;11;19068
+Granada;Osasuna;2255;226;5/2013;11;19068
+Granada;Villarreal CF;786;79;9/2015;11;19068
+Granada;Villarreal CF;1784;179;3/2014;11;19068
+Granada;Alavés;627;63;3/2017;11;19068
+Granada;Mallorca;2157;216;3/2013;11;19068
+Granada;Zaragoza;1977;198;10/2012;11;19068
+Granada;Club Deportivo Leganés;442;45;10/2016;11;19068
+Celta;Barcelona;450;45;10/2016;12;29940
+Celta;Barcelona;804;81;9/2015;12;29940
+Celta;Barcelona;1428;143;4/2015;12;29940
+Celta;Barcelona;1622;163;10/2013;12;29940
+Celta;Espanyol;907;91;12/2015;12;29940
+Celta;Espanyol;1518;152;5/2015;12;29940
+Celta;Espanyol;2276;228;6/2013;12;29940
+Celta;R. Madrid;581;59;5/2017;12;29940
+Celta;R. Madrid;844;85;10/2015;12;29940
+Celta;R. Madrid;1470;147;4/2015;12;29940
+Celta;R. Madrid;1890;189;5/2014;12;29940
+Celta;R. Madrid;2169;217;3/2013;12;29940
+Celta;Atlético;402;41;9/2016;12;29940
+Celta;Atlético;949;95;1/2016;12;29940
+Celta;Atlético;1365;137;2/2015;12;29940
+Celta;Atlético;1783;179;3/2014;12;29940
+Celta;Atlético;2259;226;5/2013;12;29940
+Celta;Getafe;1146;115;8/2014;12;29940
+Celta;Getafe;1947;195;9/2012;12;29940
+Celta;Rayo;772;78;8/2015;12;29940
+Celta;Rayo;1449;145;4/2015;12;29940
+Celta;Rayo;1646;165;11/2013;12;29940
+Celta;Rayo;2200;220;4/2013;12;29940
+Celta;Sevilla;530;53;12/2016;12;29940
+Celta;Sevilla;1822;183;3/2014;12;29940
+Celta;Sevilla;1968;197;10/2012;12;29940
+Celta;Valencia;490;49;11/2016;12;29940
+Celta;Valencia;865;87;11/2015;12;29940
+Celta;Valencia;1703;171;1/2014;12;29940
+Celta;Valencia;2127;213;2/2013;12;29940
+Celta;Levante;954;96;1/2016;12;29940
+Celta;Levante;1227;123;10/2014;12;29940
+Celta;Levante;1609;161;10/2013;12;29940
+Celta;Málaga;550;55;1/2017;12;29940
+Celta;Málaga;1129;113;5/2016;12;29940
+Celta;Málaga;1480;148;4/2015;12;29940
+Celta;Málaga;1801;181;3/2014;12;29940
+Celta;Málaga;1906;191;8/2012;12;29940
+Celta;Athletic;721;73;4/2017;12;29940
+Celta;Athletic;928;93;12/2015;12;29940
+Celta;Athletic;1407;141;3/2015;12;29940
+Celta;Granada;510;51;11/2016;12;29940
+Celta;Granada;1108;111;4/2016;12;29940
+Celta;Granada;2148;215;2/2013;12;29940
+Celta;R. Sociedad;3;1;8/2017;12;29940
+Celta;R. Sociedad;1045;105;3/2016;12;29940
+Celta;Valladolid;1869;187;4/2014;12;29940
+Celta;Valladolid;2077;208;1/2013;12;29940
+Celta;Deportivo;470;47;10/2016;12;29940
+Celta;Deportivo;1182;119;9/2014;12;29940
+Celta;Eibar;681;69;4/2017;12;29940
+Celta;Eibar;1003;101;2/2016;12;29940
+Celta;Eibar;1269;127;11/2014;12;29940
+Celta;Betis;701;71;4/2017;12;29940
+Celta;Betis;1721;173;1/2014;12;29940
+Celta;Betis;2058;206;12/2012;12;29940
+Celta;Sporting;424;43;9/2016;12;29940
+Celta;Sporting;882;89;11/2015;12;29940
+Celta;Las Palmas;661;67;4/2017;12;29940
+Celta;Elche CF;1589;159;9/2013;12;29940
+Celta;UD Almería;1300;130;12/2014;12;29940
+Celta;UD Almería;1664;167;11/2013;12;29940
+Celta;Córdoba;1344;135;2/2015;12;29940
+Celta;Osasuna;601;61;2/2017;12;29940
+Celta;Osasuna;1924;193;9/2012;12;29940
+Celta;Villarreal CF;641;65;3/2017;12;29940
+Celta;Villarreal CF;1206;121;10/2014;12;29940
+Celta;Alavés;551;56;1/2017;12;29940
+Celta;Zaragoza;2216;222;4/2013;12;29940
+Celta;Club Deportivo Leganés;389;39;8/2016;12;29940
+R. Sociedad;Barcelona;1079;108;4/2016;13;39917
+R. Sociedad;Barcelona;1304;131;1/2015;13;39917
+R. Sociedad;Barcelona;1764;177;2/2014;13;39917
+R. Sociedad;Barcelona;2093;210;1/2013;13;39917
+R. Sociedad;Espanyol;795;80;9/2015;13;39917
+R. Sociedad;Espanyol;1392;140;3/2015;13;39917
+R. Sociedad;Espanyol;1857;186;4/2014;13;39917
+R. Sociedad;Espanyol;1992;200;11/2012;13;39917
+R. Sociedad;R. Madrid;387;39;8/2016;13;39917
+R. Sociedad;R. Madrid;1111;112;5/2016;13;39917
+R. Sociedad;R. Madrid;1158;116;8/2014;13;39917
+R. Sociedad;R. Madrid;1834;184;4/2014;13;39917
+R. Sociedad;Atlético;486;49;11/2016;13;39917
+R. Sociedad;Atlético;836;84;10/2015;13;39917
+R. Sociedad;Atlético;1241;125;11/2014;13;39917
+R. Sociedad;Atlético;1548;155;9/2013;13;39917
+R. Sociedad;Atlético;1973;198;10/2012;13;39917
+R. Sociedad;Getafe;1092;110;4/2016;13;39917
+R. Sociedad;Getafe;1212;122;10/2014;13;39917
+R. Sociedad;Getafe;1521;153;8/2013;13;39917
+R. Sociedad;Rayo;1121;113;5/2016;13;39917
+R. Sociedad;Rayo;1325;133;1/2015;13;39917
+R. Sociedad;Rayo;1790;179;3/2014;13;39917
+R. Sociedad;Rayo;2011;202;11/2012;13;39917
+R. Sociedad;Sevilla;549;55;1/2017;13;39917
+R. Sociedad;Sevilla;874;88;11/2015;13;39917
+R. Sociedad;Sevilla;1373;138;2/2015;13;39917
+R. Sociedad;Sevilla;2066;207;12/2012;13;39917
+R. Sociedad;Valencia;528;53;12/2016;13;39917
+R. Sociedad;Valencia;941;95;1/2016;13;39917
+R. Sociedad;Valencia;1799;180;3/2014;13;39917
+R. Sociedad;Valencia;2225;223;4/2013;13;39917
+R. Sociedad;Levante;1484;149;5/2015;13;39917
+R. Sociedad;Málaga;1231;124;11/2014;13;39917
+R. Sociedad;Málaga;2191;220;4/2013;13;39917
+R. Sociedad;Athletic;645;65;3/2017;13;39917
+R. Sociedad;Athletic;1697;170;1/2014;13;39917
+R. Sociedad;Athletic;1954;196;9/2012;13;39917
+R. Sociedad;Granada;729;73;4/2017;13;39917
+R. Sociedad;Granada;997;100;2/2016;13;39917
+R. Sociedad;Granada;1505;151;5/2015;13;39917
+R. Sociedad;Celta;570;57;1/2017;13;39917
+R. Sociedad;Celta;855;86;11/2015;13;39917
+R. Sociedad;Celta;1653;166;11/2013;13;39917
+R. Sociedad;Celta;1914;192;8/2012;13;39917
+R. Sociedad;Valladolid;1818;182;3/2014;13;39917
+R. Sociedad;Valladolid;2172;218;3/2013;13;39917
+R. Sociedad;Deportivo;708;71;4/2017;13;39917
+R. Sociedad;Eibar;893;90;12/2015;13;39917
+R. Sociedad;Eibar;1337;134;1/2015;13;39917
+R. Sociedad;Betis;441;45;9/2016;13;39917
+R. Sociedad;Betis;978;98;1/2016;13;39917
+R. Sociedad;Betis;1678;168;12/2013;13;39917
+R. Sociedad;Sporting;687;69;4/2017;13;39917
+R. Sociedad;Las Palmas;426;43;9/2016;13;39917
+R. Sociedad;Las Palmas;1054;106;3/2016;13;39917
+R. Sociedad;Elche CF;1262;127;11/2014;13;39917
+R. Sociedad;Elche CF;1730;173;1/2014;13;39917

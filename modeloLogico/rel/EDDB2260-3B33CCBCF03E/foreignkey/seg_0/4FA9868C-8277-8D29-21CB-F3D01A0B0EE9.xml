@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FA9868C-8277-8D29-21CB-F3D01A0B0EE9" containerWithKeyObject="3089AF24-D967-68AA-E16E-207C4DC51C05" localFKIndex="A96EB57A-088E-44D3-AE26-BECFFDEF2048" name="Partido_Campo_FK">
+<createdBy>super</createdBy>
+<createdTime>2023-10-24 17:12:05 UTC</createdTime>
+<generatorID>DB7F7EB5-694E-B6D7-58CE-B31E735EAB04</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Campo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCFCDB76-72B5-A60A-CEE5-24D9BEE20A35</referredTableID>
+<keyObject>B732E7DC-9647-3D4E-5D26-3E79A95E501B</keyObject>
+<referredKeyID>B732E7DC-9647-3D4E-5D26-3E79A95E501B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CampoID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

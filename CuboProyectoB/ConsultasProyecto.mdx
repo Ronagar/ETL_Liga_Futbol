@@ -1,0 +1,126 @@
+--Ganador de los partidos del evento es 2015/16 no me cuadran ninguna de las dos versiones
+select [Measures].[Ganador] on columns,
+[Ronda].[JLiga].[Evento].&[3].children on rows
+--descendants([Ronda].[Torneo].[Liga].[Primera Division].[2017/18].[es.2017/18], Ronda) on rows 
+from [Proyecto B]
+;
+select non empty [Ronda].[JLiga].[Evento].&[3].children on columns,
+non empty ([Equipo Equipo].[Geografia].[Equipo].members, [Equipo Equipo ID2].[Geografia].[Equipo].members) on rows
+from [Proyecto B]
+where [Measures].[Ganador]
+;
+
+--historico de los resultados de los partidos en los que el real madrid era el equipo local (1) 
+select non empty [Equipo Equipo ID2].[Geografia].[Equipo].members on columns,
+non empty([Ronda].[JLiga].[Ronda]) on rows
+from (select [Equipo Equipo].[Geografia].[Equipo].[R. Madrid] on columns
+	from [Proyecto B])
+where [Measures].[Ganador]
+;
+
+
+--Ganadores de los encuentros en la jornada 1 del evento es.2016/17
+select non empty [Equipo Equipo].[Geografia].[Equipo].members on columns,
+non empty [Equipo Equipo ID2].[Geografia].[Equipo].members on rows
+from (select [Ronda].[Torneo].[Liga].[Primera División].[2016/17].[es.2016/17].[Jornada 1] on columns
+		from [Proyecto B])
+where [Measures].[Ganador]
+;
+
+
+--Goles marcados por el equipo local (1) en todas las jornadas del evento es.2014/15
+select non empty ([Equipo Equipo].[Geografia].[Equipo].members, [Equipo Equipo ID2].[Geografia].[Equipo].members) on columns,
+non empty descendants([Ronda].[JLiga].[Evento].[es.2014/15], [Ronda].[JLiga].[Ronda]) on rows
+from [Proyecto B]
+where ([Measures].[Score 1])
+;
+
+--Resultados por goles en los partidos con el Real Madrid de local y Barcelona de visitante
+select non empty {[Measures].[Score 1], [Measures].[Score 2]} on columns,
+non empty ([Ronda].[Evento].children * [Ronda].[JLiga].[Ronda]) on rows
+from [Proyecto B]
+where ([Equipo Equipo].[Geografia].[Equipo].[R. Madrid], [Equipo Equipo ID2].[Geografia].[Equipo].[Barcelona])
+;
+
+--Goles que el real madrid como visitante ha recibido de parte de equipos andaluces 
+with set Andaluces as 
+	{[Equipo Equipo].[Geografia].[Equipo].[Sevilla], [Equipo Equipo].[Geografia].[Equipo].[Betis], [Equipo Equipo].[Geografia].[Equipo].[Málaga],
+[Equipo Equipo].[Geografia].[Equipo].[Granada], [Equipo Equipo].[Geografia].[Equipo].[UD Almería], [Equipo Equipo].[Geografia].[Equipo].[Córdoba], 
+[Equipo Equipo].[Geografia].[Equipo].[Jaén]}
+
+select non empty Andaluces on columns, 
+non empty ([Ronda].[Evento].children * [Ronda].[JLiga].[Ronda]) on rows
+from (select [Equipo Equipo ID2].[Geografia].[Equipo].[R. Madrid] on columns
+	from [Proyecto B])
+where [Measures].[Score 1]
+;
+
+--Goles de diciembre comparados con los de agosto para ver si el calor afecta al rendimiento de los jugadores
+with set partidosDiciembre as 
+	{[Tiempo].[Calendario].[Mes].&[2012]&[12], [Tiempo].[Calendario].[Mes].&[2013]&[12], [Tiempo].[Calendario].[Mes].&[2014]&[12], [Tiempo].[Calendario].[Mes].&[2015]&[12],
+	[Tiempo].[Calendario].[Mes].&[2016]&[12], [Tiempo].[Calendario].[Mes].&[2017]&[12]}
+member [Measures].golesAgosto as
+	([Measures].[TotalGoles], parallelperiod([Tiempo].[Calendario].[Mes], 4))
+
+select {[Measures].golesAgosto, [Measures].[TotalGoles]} on columns,
+non empty ([Equipo Equipo].[Geografia].[Equipo].members * partidosDiciembre) on rows
+from [Proyecto B]
+;
+
+--Top 5 equipos que han marcado más como locales
+with set top5Goleadores as
+	topcount([Equipo Equipo].[Geografia].[Equipo], 5, [Measures].[Score 1])
+select [Measures].[Score 1] on columns,
+top5Goleadores on rows
+from [Proyecto B]
+;
+
+--porcentaje de goles marcados por un equipo en local en relacion a los de su ciudad entera
+with member [Measures].golesRespectoCiudad as
+	([Measures].[Score 1], [Equipo Equipo].[Geografia].currentmember) /
+	([Measures].[Score 1], [Equipo Equipo].[Geografia].currentmember.parent.parent), --Equipo->Campo->ciudad
+	format_string = '#0.00%'
+member [Measures].golesCiudad as
+	([Measures].[Score 1], [Equipo Equipo].[Geografia].currentmember.parent.parent)
+--Buscamos la informacion para el real Madrid porque la ciudad tiene 4 equipos
+select {[Measures].[Score 1], [Measures].golesCiudad, [Measures].golesRespectoCiudad} on columns,
+non empty ([Ronda].[JLiga].[Evento].members * [Equipo Equipo].[Geografia].[Equipo].[R. Madrid]) on rows
+from [Proyecto B]
+;
+
+
+-------------------------------------------------------------------------------------------
+--Goles totales por equipo como local 
+select [Measures].[Score 1] on columns,
+non empty [Equipo Equipo].[Geografia].[Equipo] on rows
+from [Proyecto B]
+;
+
+--Partidos y Goles totales
+select {[Measures].[Recuento Partido], [Measures].[TotalGoles]} on columns
+from [Proyecto B]
+;
+
+--TotalGoles por mes 
+select [Measures].[TotalGoles] on columns,
+non empty [Tiempo].[Mes Completo].children on rows
+from [Proyecto B]
+;
+
+--Score 1 por Evento y equipo
+select [Measures].[Score 1] on columns,
+non empty [Ronda].[JLiga].[Evento] * [Equipo Equipo].[Equipo].children on rows
+from [Proyecto B]
+;
+
+--TotalGoles, Score1, Score2 por dia 
+select {[Measures].[Score 1], [Measures].[Score 2], [Measures].[TotalGoles]} on columns, 
+non empty [Tiempo].[Calendario].[Dia] on rows
+from [Proyecto B]
+;
+
+--Recuento partido por ciudad y equipo 
+select [Measures].[Recuento Partido] on columns,
+non empty [Equipo Equipo].[Ciudad].children * [Equipo Equipo].[Equipo].children on rows
+from [Proyecto B]
+;
